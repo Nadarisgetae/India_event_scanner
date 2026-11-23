@@ -1,0 +1,159 @@
+{
+  "id": "MB-4",
+  "type": "company",
+  "company": { "symbol": "HDFCBANK", "name": "HDFC Bank", "sector": "Banking", "price": 1680, "impact_score": 2.2, "business_summary": "India's largest private bank post-merger with HDFC Ltd; ₹24L cr+ balance sheet; 44% CASA ratio; 60% retail loans; best-in-class asset quality (NNPA 0.33%); digital leader." },
+  "event": {
+    "headline": "RBI cuts repo rate by 25 bps to 6.25%",
+    "event_type": "monetary_policy",
+    "geographies": ["India"],
+    "magnitude": "medium",
+    "duration": "medium",
+    "certainty": "high",
+    "direction_for_india": "positive",
+    "key_facts": [
+      "RBI MPC votes 5:1 for 25 bps cut; stance 'accommodative'",
+      "CPI inflation 4.2% (within target); GDP growth 7.0% forecast",
+      "First cut since Apr 2023; signals easing cycle",
+      "Liquidity surplus ₹1.5L cr; SDF cut to 6.0%"
+    ],
+    "unknowns": [
+      "Pace of further cuts (25 vs 50 bps)",
+      "Transmission to lending rates (MCLR vs EBLR)",
+      "Deposit repricing lag",
+      "Food inflation volatility"
+    ]
+  },
+  "channels": [
+    { "channel": "Rates / Monetary Policy", "active": true, "direction": "positive", "strength": 5, "reason": "Direct beneficiary; credit growth acceleration; NIM stable on deposit franchise" },
+    { "channel": "Consumer Demand", "active": true, "direction": "positive", "strength": 3, "reason": "Lower EMIs boost retail credit (home, auto, personal); consumer confidence" },
+    { "channel": "Currency / INR", "active": true, "direction": "negative", "strength": 2, "reason": "Rate differential narrows; carry unwind; but growth positive for INR" }
+  ],
+  "dimensions": [
+    { "dimension": "Revenue", "impact": 1, "explanation": "NII growth 15-18% YoY; credit growth 15%+; fee income resilient", "evidence": "Retail loan book ₹8L cr+; corporate recovery; credit card #1", "magnitude_estimate": "NII +12-15%; fees +10%", "timing": "medium", "confidence": "high" },
+    { "dimension": "Pricing", "impact": 0, "explanation": "Loan pricing linked to EBLR/MCLR; deposit pricing sticky; spread stable", "evidence": "EBLR transmission immediate; MCLR lag 1-2 quarters", "magnitude_estimate": "NIM stable 3.5-3.6%", "timing": "short", "confidence": "high" },
+    { "dimension": "Input Costs", "impact": 1, "explanation": "Cost of funds down 15-20bps; deposit repricing lag benefits margin", "evidence": "SA rate 3.0-3.5%; term deposit 6.5-7.0%", "magnitude_estimate": "Cost of funds -15bps", "timing": "short", "confidence": "high" },
+    { "dimension": "Margins", "impact": 1, "explanation": "NIM stable to slightly up; credit mix shift to retail (higher yield)", "evidence": "Retail 60% of loans; NIM 3.55% best-in-class", "magnitude_estimate": "NIM +5-10bps", "timing": "medium", "confidence": "high" },
+    { "dimension": "Working Capital", "impact": 0, "explanation": "Banking WC not applicable; liquidity surplus ₹1.5L cr", "evidence": "LCR 130%+; surplus SLR", "magnitude_estimate": "Neutral", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Debt & Interest", "impact": 1, "explanation": "Lower borrowing cost for infrastructure bonds, Tier-2; interest expense down", "evidence": "Borrowings ~15% of liabilities", "magnitude_estimate": "Interest expense -5%", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Forex", "impact": 0, "explanation": "Minimal forex exposure; FCNR deposits hedged", "evidence": "Forex loan book <5%", "magnitude_estimate": "Neutral", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Supply Chain", "impact": 0, "explanation": "N/A for banking", "evidence": "N/A", "magnitude_estimate": "N/A", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Customers / Demand", "impact": 2, "explanation": "Retail credit demand surge (home, auto, personal); corporate capex pickup", "evidence": "Home loan rate <8.5%; auto loan <9%; credit card spends 20%+", "magnitude_estimate": "Credit growth 16-18%", "timing": "short", "confidence": "high" },
+    { "dimension": "Regulatory", "impact": 0, "explanation": "RBI supportive; no adverse regulatory change", "evidence": "MPC accommodative stance", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Reputation", "impact": 0, "explanation": "Market leader; trusted brand; governance gold standard", "evidence": "Consistent #1 in trust surveys", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Capex", "impact": 0, "explanation": "Digital capex ~₹3000 cr/yr; branch expansion measured", "evidence": "Tech spend 2% revenue; 8000+ branches", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Governance", "impact": 0, "explanation": "Professional board; succession planned; risk management best-in-class", "evidence": "RBI clean chit; no governance issues", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" }
+  ],
+  "resilience": {
+    "score": 88,
+    "band": "high",
+    "strengths": ["Best-in-class asset quality (NNPA 0.3%)", "Low-cost deposit franchise (CASA 44%)", "Diversified loan book (retail 60%)", "Strong capital (CET1 17%+)", "Digital leadership", "Proven management"],
+    "weaknesses": ["Merger integration (HDFC Ltd) execution", "Unsecured retail growth watch", "Rate sensitivity if cuts accelerate"],
+    "ratios": { "Debt/Equity": 0.0, "CET1 Ratio": "17.2%", "NNPA": "0.33%", "PCR": "78%", "NIM": "3.55%", "ROE": "17.5%", "ROA": "1.9%" }
+  },
+  "market_view": {
+    "technicals": [
+      { "period": "1D", "chart_data": [], "bias": "bullish", "key_levels": { "support": 1650, "resistance": 1720 } },
+      { "period": "1W", "chart_data": [], "bias": "bullish", "key_levels": { "support": 1600, "resistance": 1750 } },
+      { "period": "1M", "chart_data": [], "bias": "bullish", "key_levels": { "support": 1550, "resistance": 1800 } }
+    ],
+    "priced_in_note": "First cut priced; further cuts (50-75bps) not fully priced; re-rating potential vs peers",
+    "news_sentiment": [
+      { "headline": "HDFC Bank Q2 FY27: NII +18%; asset quality pristine", "source": "ET", "date": "2026-10-20", "sentiment": "positive", "materiality": "high" },
+      { "headline": "RBI rate cut: HDFC Bank best positioned for transmission", "source": "BS", "date": "2026-10-21", "sentiment": "positive", "materiality": "high" },
+      { "headline": "Home loan rates below 8.5%: Demand surge expected", "source": "CNBC", "date": "2026-10-19", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "HDFC Bank credit card spends cross ₹50k cr/quarter", "source": "Mint", "date": "2026-10-18", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Merger synergies: Cost-to-income improves to 38%", "source": "ET", "date": "2026-10-17", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Unsecured retail growth 30%: RBI watchlist", "source": "Reuters", "date": "2026-10-16", "sentiment": "negative", "materiality": "medium" },
+      { "headline": "HDFC Bank adds 500 branches in FY27", "source": "BS", "date": "2026-10-15", "sentiment": "positive", "materiality": "low" },
+      { "headline": "Deposit mobilization: CASA ratio stable at 44%", "source": "ET", "date": "2026-10-14", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Analyst: HDFC Bank re-rating candidate post rate cut", "source": "Morgan Stanley", "date": "2026-10-13", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "HDFC Bank declares interim dividend ₹19/share", "source": "NSE", "date": "2026-10-12", "sentiment": "positive", "materiality": "low" }
+    ]
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 13.8,
+    "usd_inr": 83.20,
+    "brent": 87.50,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.25,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "peers": [
+    { "symbol": "ICICIBANK", "name": "ICICI Bank", "impact_score": 2.5, "bucket": "positive", "better_than_subject": false },
+    { "symbol": "KOTAKBANK", "name": "Kotak Mahindra Bank", "impact_score": 1.8, "bucket": "positive", "better_than_subject": false },
+    { "symbol": "AXISBANK", "name": "Axis Bank", "impact_score": 2.0, "bucket": "positive", "better_than_subject": false },
+    { "symbol": "SBIN", "name": "State Bank of India", "impact_score": 2.2, "bucket": "positive", "better_than_subject": false }
+  ],
+  "strategy": {
+    "stance": "both",
+    "immediate_0_30d": [
+      { "action": "Accelerate retail loan disbursement (home, auto, personal)", "lever": "Credit Growth", "why": "Rate cut transmission immediate on EBLR; demand pent-up", "owner": "Retail Banking Head", "cost_effort": "low", "expected_effect": "Disbursement +20% QoQ", "risk": "Underwriting standards dilution" },
+      { "action": "Lock in low-cost bulk deposits (1-2 yr) before further cuts", "lever": "Liability Management", "why": "Deposit rates lag lending rates; window to lock 6.5-7%", "owner": "Treasury Head", "cost_effort": "low", "expected_effect": "Cost of funds -10bps", "risk": "Liquidity surplus limits need" },
+      { "action": "Launch 'Rate Cut Special' home loan at 8.35% (limited period)", "lever": "Pricing", "why": "Capture market share; psychological trigger <8.5%", "owner": "Mortgage Head", "cost_effort": "low", "expected_effect": "Market share +50bps", "risk": "Margin compression if rates rise" }
+    ],
+    "short_term_1_6m": [
+      { "action": "Expand secured SME lending (LAP, supply chain finance)", "lever": "Portfolio Diversification", "why": "Corporate capex pickup; SME credit gap; better yield than unsecured", "owner": "SME Banking Head", "cost_effort": "medium", "expected_effect": "SME book +25%", "risk": "Asset quality in SME" },
+      { "action": "Digital acquisition: scale 'PayZapp' and 'SmartBuy' ecosystems", "lever": "Fee Income", "why": "Non-interest income resilient; cross-sell 3.5 products/customer", "owner": "Digital Banking Head", "cost_effort": "medium", "expected_effect": "Fee income +15%", "risk": "Fintech competition" },
+      { "action": "Complete HDFC Ltd merger integration (tech, branches, HR)", "lever": "Operational Efficiency", "why": "Synergy target ₹3000 cr cost savings; 18-month timeline", "owner": "Integration Office", "cost_effort": "high", "expected_effect": "C/I ratio 38%→36%", "risk": "Execution complexity" }
+    ],
+    "long_term_6_24m": [
+      { "action": "Build 'Green Banking' portfolio (solar, EV, green buildings)", "lever": "Sustainable Finance", "why": "RBI priority sector; lower risk weights; ESG funding", "owner": "Wholesale Banking Head", "cost_effort": "high", "expected_effect": "Green book ₹50k cr", "risk": "New underwriting models" },
+      { "action": "Wealth management: target ₹50L cr AUM (from ₹30L cr)", "lever": "Fee Income Diversification", "why": "Affluent segment growing; sticky revenue; low capital", "owner": "Wealth Head", "cost_effort": "medium", "expected_effect": "Wealth revenue 2x", "risk": "RM hiring; platform" },
+      { "action": "International expansion: GIFT City, Dubai, Singapore", "lever": "Geographic Diversification", "why": "NRI corridor; remittance; offshore banking", "owner": "International Head", "cost_effort": "high", "expected_effect": "Intl revenue 5% of total", "risk": "Regulatory; competition" }
+    ],
+    "kpis_to_track": [
+      { "kpi": "NIM", "target": ">3.5%", "frequency": "Quarterly" },
+      { "kpi": "Credit Growth", "target": ">16% YoY", "frequency": "Monthly" },
+      { "kpi": "NNPA", "target": "<0.4%", "frequency": "Quarterly" },
+      { "kpi": "CASA Ratio", "target": ">43%", "frequency": "Monthly" },
+      { "kpi": "Cost-to-Income", "target": "<38%", "frequency": "Quarterly" },
+      { "kpi": "ROE", "target": ">18%", "frequency": "Annual" },
+      { "kpi": "Digital Transactions %", "target": ">95%", "frequency": "Monthly" }
+    ],
+    "trigger_points": [
+      { "condition": "RBI cuts 50bps more by Mar 2027", "then_switch_to": "Capitalize: aggressive credit growth; NIM expansion; valuation re-rate" },
+      { "condition": "Unsecured retail NPA >2%", "then_switch_to": "Defend: tighten unsecured; shift to secured; provision buffer" },
+      { "condition": "Deposit growth <10% for 2 quarters", "then_switch_to": "Defend: pricing for deposits; slow credit; protect liquidity" }
+    ],
+    "plan_risks": [
+      "Rate cuts accelerate (75bps+) — NIM compression on lagging deposit repricing",
+      "Unsecured retail bubble — asset quality deterioration",
+      "Merger integration delays — synergy miss, cost overrun",
+      "Global risk-off — FII outflows, liquidity tightening"
+    ],
+    "assumptions": [
+      "RBI cuts 25-50bps more by Jun 2027",
+      "Credit growth 15-17% FY27",
+      "Asset quality stable (NNPA <0.5%)",
+      "Merger integration on track",
+      "No systemic liquidity shock"
+    ]
+  },
+  "scenarios": [
+    { "name": "best", "narrative": "RBI cuts 75bps total; credit boom 18%+; NIM 3.6%+; ROE 19%+", "triggers": ["Fed cuts", "Food inflation benign", "Capex cycle strong"], "bucket_shifts": [ { "symbol": "HDFCBANK", "from": "positive", "to": "gain" } ] },
+    { "name": "base", "narrative": "RBI cuts 50bps total; credit 16%; NIM stable 3.55%; steady compounding", "triggers": ["Current trajectory"], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "RBI pauses; food inflation spikes; credit 12%; NIM 3.45%; unsecured stress", "triggers": ["El Nino", "Fiscal slippage", "Global risk-off"], "bucket_shifts": [ { "symbol": "HDFCBANK", "from": "positive", "to": "neutral" } ] }
+  ],
+  "analogues": [
+    { "event": "2015-17 Rate Cut Cycle (150bps)", "date": "2015-2017", "outcome": "HDFC Bank +80% in 24M; credit 20%+; NIM stable; best performer" },
+    { "event": "2019-20 Rate Cuts (135bps)", "date": "2019-2020", "outcome": "Pre-COVID; HDFC Bank +40%; NBFC crisis helped market share gains" },
+    { "event": "2003-04 Rate Cuts", "date": "2003-2004", "outcome": "Early cycle; HDFC Bank +120% in 18M; retail credit explosion" }
+  ],
+  "limitations": [
+    "Merger integration execution risk",
+    "Unsecured retail portfolio granularity not public",
+    "Deposit repricing behavior at scale uncertain",
+    "Competitor response (ICICI, Axis) could limit share gains"
+  ],
+  "appendix": {
+    "models_used": ["gemini-1.5-flash", "gemini-1.5-pro"],
+    "prompt_versions": ["company_event_understanding_v2", "dimension_scoring_v3", "resilience_v2", "market_view_v2", "peer_v2", "plan_gen_v3", "scenario_v2"],
+    "call_count": 18,
+    "generation_time_seconds": 387,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

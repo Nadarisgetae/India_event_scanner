@@ -1,0 +1,37 @@
+channels:
+  - id: crude_oil
+    name: "Crude Oil & Energy"
+    description: "Global Brent/WTI crude prices affecting fuel, petrochemical feedstock, transport, and freight."
+  - id: currency_inr
+    name: "Currency / INR Exchange Rate"
+    description: "Rupee depreciation or appreciation against the USD affecting import costs and export competitiveness."
+  - id: input_costs
+    name: "Raw Material & Input Costs"
+    description: "Direct industrial raw materials, metals, bulk chemicals, natural rubber, and packaging."
+  - id: consumer_demand
+    name: "Domestic Consumer Demand"
+    description: "Urban discretionary and rural mass consumption trends, purchasing power, and disposable income."
+  - id: export_competitiveness
+    name: "Export Competitiveness & Foreign Demand"
+    description: "Demand from US, Europe, and Asia for Indian software, pharma, textiles, and engineering goods."
+  - id: interest_rates
+    name: "Interest Rates & Monetary Policy"
+    description: "RBI Repo rate, systemic liquidity, borrowing spreads, cost of capital, and retail credit expansion."
+  - id: trade_tariffs
+    name: "Trade Policy, Tariffs & Duties"
+    description: "Import/export customs duties, reciprocal tariffs, anti-dumping measures, and free-trade agreements."
+  - id: regulatory_compliance
+    name: "Regulatory & Environmental Policy"
+    description: "SEBI, RBI, US FDA inspections, pollution norms, PLI subsidies, and government price caps."
+  - id: supply_chain
+    name: "Supply Chain & Logistics"
+    description: "Port congestion, shipping container freight rates, Red Sea / canal disruptions, and domestic rail/road logistics."
+  - id: commodity_prices
+    name: "Metals, Agro & Commodity Prices"
+    description: "Thermal coal, coking coal, steel, aluminum, copper, palm oil, and fertilizers."
+  - id: fiscal_subsidy
+    name: "Fiscal Spending & Subsidy Burden"
+    description: "Union Budget capex, fertilizer/food subsidies, excise tax adjustments, and sovereign deficit."
+  - id: substitution
+    name: "Substitution & Technology Transition"
+    description: "EV adoption, renewable power substitution, generative AI enterprise automation, and water-based coatings."

@@ -1,0 +1,20 @@
+{
+  "symbol": "HINDUNILVR",
+  "name": "Hindustan Unilever",
+  "sector": "Consumer Staples",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-16",
+  "business_summary": "India's largest fast-moving consumer goods company with 50+ brands across 16 categories including Lifebuoy, Surf Excel, Dove, Knorr, and Brooke Bond.",
+  "revenue_mix": { "Home Care": 36, "Beauty & Personal Care": 37, "Foods & Refreshment": 25, "Others": 2 },
+  "exposure_tags": ["fmcg_leader", "pricing_power", "rural_exposure", "input_cost_pass_through"],
+  "resilience": {
+    "score": 88,
+    "band": "high",
+    "strengths": ["Reach across 9 out of 10 Indian households", "Exceptional pricing power and brand moat", "Zero debt with high dividend payout ratio", "High return on capital (ROCE > 30%)"],
+    "weaknesses": ["Palm oil and crude derivative packaging input costs", "Rural disposable income and monsoon sensitivity", "Intense local and D2C brand competition in premium niches"],
+    "ratios": { "Debt/Equity": 0.0, "Current Ratio": 1.3, "Interest Coverage": 999, "FCF Yield": "3.5%", "ROE": "20.5%", "ROCE": "27.8%" }
+  },
+  "ratios": { "Debt/Equity": 0.0, "Current Ratio": 1.3, "Interest Coverage": 999, "FCF Yield": "3.5%", "ROE": "20.5%", "ROCE": "27.8%" },
+  "sources": ["Annual Report FY24", "Investor Presentation Q1FY25", "Nielsen FMCG Trends"]
+}

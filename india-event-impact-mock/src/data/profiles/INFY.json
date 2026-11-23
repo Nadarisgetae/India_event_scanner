@@ -1,0 +1,20 @@
+{
+  "symbol": "INFY",
+  "name": "Infosys",
+  "sector": "IT Services",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-18",
+  "business_summary": "Tier-1 Indian global digital services and consulting leader with 330,000+ employees, operating across North America, Europe, and Asia-Pacific.",
+  "revenue_mix": { "Financial Services": 28, "Retail & Consumer": 15, "Communications": 12, "Energy & Utilities": 13, "Manufacturing": 14, "Others": 18 },
+  "exposure_tags": ["export_oriented", "rupee_beneficiary", "low_debt", "strong_fcf"],
+  "resilience": {
+    "score": 86,
+    "band": "high",
+    "strengths": ["Zero net debt with massive cash reserves", "95%+ export revenue in hard currencies", "Large client portfolio across Fortune 500", "High return on equity (30%+)"],
+    "weaknesses": ["US & Europe tech budget deferrals", "H-1B visa and onshore wage inflation", "Attrition in emerging technology domains"],
+    "ratios": { "Debt/Equity": 0.0, "Current Ratio": 2.1, "Interest Coverage": 999, "FCF Yield": "5.1%", "ROE": "31.8%", "ROCE": "38.2%" }
+  },
+  "ratios": { "Debt/Equity": 0.0, "Current Ratio": 2.1, "Interest Coverage": 999, "FCF Yield": "5.1%", "ROE": "31.8%", "ROCE": "38.2%" },
+  "sources": ["Annual Report FY24", "FactSheet Q1FY25", "SEC Form 20-F"]
+}

@@ -1,0 +1,140 @@
+{
+  "id": "MA-1",
+  "type": "market",
+  "event": {
+    "headline": "Crude oil spikes to $110",
+    "event_type": "commodity_shock",
+    "geographies": ["Global", "India"],
+    "magnitude": "high",
+    "duration": "medium",
+    "certainty": "high",
+    "direction_for_india": "negative",
+    "key_facts": [
+      "Brent crude futures +15% in 5 sessions to $110/bbl",
+      "OPEC+ announced 2M bpd supply cut extension through Q1 2027",
+      "India imports ~85% of crude oil requirement",
+      "Current account deficit projected to widen by $15-20B",
+      "Petrol/diesel retail prices unchanged for 18 months"
+    ],
+    "unknowns": [
+      "Duration of OPEC+ cuts beyond Q1 2027",
+      "Strategic petroleum reserve releases by US/IEA",
+      "Global demand destruction at $110+",
+      "Russian oil discount sustainability",
+      "Monsoon impact on domestic demand"
+    ]
+  },
+  "channels": [
+    { "channel": "Currency / INR", "active": true, "direction": "negative", "strength": 5, "reason": "Wider CAD puts depreciation pressure on INR; FII outflows amplify" },
+    { "channel": "Input Costs", "active": true, "direction": "negative", "strength": 5, "reason": "Direct feed-through to crude derivatives, petrochemicals, logistics" },
+    { "channel": "Inflation / CPI", "active": true, "direction": "negative", "strength": 4, "reason": "Fuel weight ~8% in CPI; indirect via transport, fertilizers, plastics" },
+    { "channel": "Fiscal / Subsidy Burden", "active": true, "direction": "negative", "strength": 4, "reason": "Fertilizer, LPG, kerosene subsidies rise; excise cut pressure" },
+    { "channel": "Export Competitiveness", "active": true, "direction": "positive", "strength": 3, "reason": "Weaker INR helps exports; but global demand uncertain" },
+    { "channel": "Substitution / Alternatives", "active": true, "direction": "positive", "strength": 2, "reason": "Accelerates EV adoption, solar, green hydrogen; policy tailwinds" },
+    { "channel": "Rates / Monetary Policy", "active": true, "direction": "negative", "strength": 3, "reason": "RBI may hold/hike rates to defend INR and anchor inflation" }
+  ],
+  "macro": {
+    "gdp": { "direction": "negative", "magnitude_band": "medium", "confidence": "medium", "horizon": "medium" },
+    "cpi": { "direction": "negative", "magnitude_band": "medium", "confidence": "high", "horizon": "short" },
+    "cad": { "direction": "negative", "magnitude_band": "large", "confidence": "high", "horizon": "medium" },
+    "inr": { "direction": "negative", "magnitude_band": "medium", "confidence": "high", "horizon": "short" },
+    "yield10y": { "direction": "negative", "magnitude_band": "medium", "confidence": "medium", "horizon": "medium" },
+    "rbi_stance": { "direction": "negative", "magnitude_band": "medium", "confidence": "medium", "horizon": "medium" },
+    "fii_flows": { "direction": "negative", "magnitude_band": "medium", "confidence": "medium", "horizon": "short" },
+    "index_tone": { "direction": "negative", "magnitude_band": "medium", "confidence": "high", "horizon": "short" }
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 14.2,
+    "usd_inr": 83.12,
+    "brent": 110.00,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.50,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "sectors": [
+    { "sector": "Oil & Gas Upstream", "score": 4.5, "confidence": "high", "reason": "Direct crude price beneficiary; volume stable; windfall tax caps upside", "key_channels": ["Commodity Prices", "Export Competitiveness"] },
+    { "sector": "Oil Marketing Cos", "score": -4.8, "confidence": "high", "reason": "Marketing margins compressed; retail price freeze likely; subsidy burden", "key_channels": ["Input Costs", "Currency / INR", "Fiscal / Subsidy Burden"] },
+    { "sector": "Paints", "score": -4.2, "confidence": "high", "reason": "Crude derivatives ~50% RM; pricing power but lag; housing demand hit", "key_channels": ["Input Costs", "Currency / INR", "Consumer Demand"] },
+    { "sector": "Tyres", "score": -4.0, "confidence": "high", "reason": "Rubber, carbon black, nylon tyre cord all crude-linked; export offset partial", "key_channels": ["Input Costs", "Currency / INR", "Export Competitiveness"] },
+    { "sector": "Aviation", "score": -4.5, "confidence": "high", "reason": "ATF ~35% costs; INR revenue vs USD costs; fare hike limited by demand", "key_channels": ["Input Costs", "Currency / INR", "Consumer Demand"] },
+    { "sector": "Cement", "score": -2.5, "confidence": "medium", "reason": "Pet coke/coal costs up; demand resilient from infra; pricing power moderate", "key_channels": ["Input Costs", "Consumer Demand"] },
+    { "sector": "IT Services", "score": 2.5, "confidence": "high", "reason": "USD revenue >90%; INR costs; rupee depreciation = margin tailwind", "key_channels": ["Currency / INR", "Global Demand"] },
+    { "sector": "Pharmaceuticals", "score": 1.8, "confidence": "high", "reason": "Exports ~50% USD; rupee benefit; regulatory overhang unchanged", "key_channels": ["Currency / INR", "Global Demand"] },
+    { "sector": "Auto OEMs", "score": -1.5, "confidence": "medium", "reason": "Steel, aluminium, commodity costs up; demand resilient; EV transition continues", "key_channels": ["Input Costs", "Consumer Demand", "Rates / Monetary Policy"] },
+    { "sector": "Banks", "score": 0.8, "confidence": "medium", "reason": "NIM stable; credit growth ok; corporate FX stress watch; deposit franchise strong", "key_channels": ["Rates / Monetary Policy", "Currency / INR", "Consumer Demand"] },
+    { "sector": "Consumer Staples", "score": -0.5, "confidence": "high", "reason": "Input cost pressure; pricing power protects margins; rural demand watch", "key_channels": ["Input Costs", "Currency / INR", "Consumer Demand"] },
+    { "sector": "Textiles", "score": -2.0, "confidence": "medium", "reason": "Cotton, polyester costs up; export competitiveness helps; global demand weak", "key_channels": ["Input Costs", "Currency / INR", "Trade Policy / Tariffs"] },
+    { "sector": "Chemicals", "score": -2.2, "confidence": "medium", "reason": "Crude derivatives, gas costs up; China+1 structural tailwind persists", "key_channels": ["Input Costs", "Currency / INR", "Trade Policy / Tariffs"] },
+    { "sector": "Metals & Mining", "score": 2.0, "confidence": "medium", "reason": "Metal prices correlated with energy; export parity; China demand key", "key_channels": ["Commodity Prices", "Currency / INR", "Global Demand"] },
+    { "sector": "Power", "score": -1.2, "confidence": "medium", "reason": "Imported coal cost up; regulated returns limit pass-through; renewable mix growing", "key_channels": ["Input Costs", "Regulatory", "Currency / INR"] },
+    { "sector": "Telecom", "score": -1.0, "confidence": "medium", "reason": "Capex cycle; equipment imports; tariff hikes absorb some pressure", "key_channels": ["Rates / Monetary Policy", "Currency / INR"] },
+    { "sector": "Capital Goods", "score": 2.2, "confidence": "medium", "reason": "Infra capex cycle strong; order books full; commodity cost pass-through in contracts", "key_channels": ["Consumer Demand", "Currency / INR"] },
+    { "sector": "Retail", "score": 0.5, "confidence": "medium", "reason": "Discretionary pressure; value formats resilient; supply chain costs up", "key_channels": ["Consumer Demand", "Input Costs"] },
+    { "sector": "Financial Services", "score": 0.5, "confidence": "medium", "reason": "Rate sensitivity mixed; credit growth ok; insurance beneficiary of yields", "key_channels": ["Rates / Monetary Policy", "Consumer Demand"] },
+    { "sector": "Logistics", "score": -1.5, "confidence": "medium", "reason": "Fuel cost ~30% opex; freight rates adjust with lag; e-comm volume supports", "key_channels": ["Input Costs", "Currency / INR"] },
+    { "sector": "Healthcare", "score": 0.8, "confidence": "medium", "reason": "Defensive; pharma exports benefit; hospital costs manageable", "key_channels": ["Currency / INR", "Global Demand"] }
+  ],
+  "companies": [
+    { "symbol": "ONGC", "name": "ONGC", "sector": "Oil & Gas Upstream", "impact_score": 4.2, "bucket": "gain", "primary_channels": ["Commodity Prices", "Export Competitiveness"], "reasoning": "Direct crude price beneficiary; volume stable; windfall tax at $75+ caps upside", "magnitude_estimate": "+15-20% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Windfall tax", "Govt stake sale overhang"], "data_gaps": ["Exact windfall tax threshold"] },
+    { "symbol": "OIL", "name": "Oil India", "sector": "Oil & Gas Upstream", "impact_score": 3.8, "bucket": "gain", "primary_channels": ["Commodity Prices", "Export Competitiveness"], "reasoning": "Upstream producer with low cost base; gas price linkage adds upside", "magnitude_estimate": "+12-18% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Windfall tax"], "data_gaps": [] },
+    { "symbol": "IOC", "name": "Indian Oil Corp", "sector": "Oil Marketing Cos", "impact_score": -4.5, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Fiscal / Subsidy Burden"], "reasoning": "Largest OMC; marketing margins negative at current retail prices; subsidy burden", "magnitude_estimate": "-30-40% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Govt compensation", "Refining margins offset"], "data_gaps": ["Subsidy sharing formula"] },
+    { "symbol": "BPCL", "name": "Bharat Petroleum", "sector": "Oil Marketing Cos", "impact_score": -4.2, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Fiscal / Subsidy Burden"], "reasoning": "Similar to IOC; privatization overhang adds uncertainty", "magnitude_estimate": "-25-35% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Refining margin cushion"], "data_gaps": ["Privatization timeline"] },
+    { "symbol": "ASIANPAINT", "name": "Asian Paints", "sector": "Paints", "impact_score": -3.8, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Consumer Demand"], "reasoning": "Market leader with pricing power but RM cost pressure severe; 60% hedged", "magnitude_estimate": "-10-15% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Partial hedging", "Price hikes", "Market share gains"], "data_gaps": ["Exact hedge ratio"] },
+    { "symbol": "BERGEPAINT", "name": "Berger Paints", "sector": "Paints", "impact_score": -4.0, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Consumer Demand"], "reasoning": "Smaller scale, less hedging; decorative focus more discretionary", "magnitude_estimate": "-15-20% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Price hikes"], "data_gaps": [] },
+    { "symbol": "MRF", "name": "MRF", "sector": "Tyres", "impact_score": -3.5, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Export Competitiveness"], "reasoning": "Premium positioning helps pricing; but RM basket heavily crude-linked", "magnitude_estimate": "-10-15% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Export revenue", "Price hikes"], "data_gaps": [] },
+    { "symbol": "APOLLOTYRE", "name": "Apollo Tyres", "sector": "Tyres", "impact_score": -3.8, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Export Competitiveness"], "reasoning": "European ops provide natural hedge; but India margins under pressure", "magnitude_estimate": "-12-18% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Europe ops", "Price hikes"], "data_gaps": [] },
+    { "symbol": "INDIGO", "name": "InterGlobe Aviation", "sector": "Aviation", "impact_score": -4.2, "bucket": "danger", "primary_channels": ["Input Costs", "Currency / INR", "Consumer Demand"], "reasoning": "ATF ~38% costs; INR revenue; market share leader but margin compression severe", "magnitude_estimate": "-40-50% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Fleet efficiency", "Ancillary revenue", "Market share gains"], "data_gaps": ["Hedging policy"] },
+    { "symbol": "TCS", "name": "TCS", "sector": "IT Services", "impact_score": 2.5, "bucket": "positive", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "USD revenue 90%+; INR cost base; rupee depreciation = direct margin tailwind", "magnitude_estimate": "+3-5% EPS", "horizon": "short", "confidence": "high", "mitigants": ["Client budget scrutiny"], "data_gaps": ["Deal pipeline conversion"] },
+    { "symbol": "INFY", "name": "Infosys", "sector": "IT Services", "impact_score": 2.3, "bucket": "positive", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "Similar to TCS; slightly higher onsite mix reduces rupee benefit", "magnitude_estimate": "+2-4% EPS", "horizon": "short", "confidence": "high", "mitigants": ["Discretionary spend cuts"], "data_gaps": [] },
+    { "symbol": "HDFCBANK", "name": "HDFC Bank", "sector": "Banks", "impact_score": 1.0, "bucket": "neutral", "primary_channels": ["Rates / Monetary Policy", "Currency / INR", "Consumer Demand"], "reasoning": "Deposit franchise strong; NIM stable; corporate book clean; credit growth 15%+", "magnitude_estimate": "Neutral to +5% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Rate hike cycle end"], "data_gaps": [] },
+    { "symbol": "ICICIBANK", "name": "ICICI Bank", "sector": "Banks", "impact_score": 1.2, "bucket": "neutral", "primary_channels": ["Rates / Monetary Policy", "Currency / INR", "Consumer Demand"], "reasoning": "Retail credit leader; digital edge; asset quality best-in-class", "magnitude_estimate": "Neutral to +5% EPS", "horizon": "medium", "confidence": "high", "mitigants": [], "data_gaps": [] },
+    { "symbol": "HINDUNILVR", "name": "Hindustan Unilever", "sector": "Consumer Staples", "impact_score": -0.3, "bucket": "neutral", "primary_channels": ["Input Costs", "Currency / INR", "Consumer Demand"], "reasoning": "Pricing power protects margins; rural demand sensitive; premiumisation continues", "magnitude_estimate": "Flat to -5% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Price hikes", "Cost savings"], "data_gaps": ["Rural demand recovery"] }
+  ],
+  "uncertain": [
+    { "symbol": "TATAMOTORS", "name": "Tata Motors", "sector": "Auto OEMs", "impact_score": -1.2, "bucket": "neutral", "primary_channels": ["Input Costs", "Currency / INR", "Consumer Demand"], "reasoning": "JLR USD revenue hedges; India CV cycle strong; EV investment heavy", "magnitude_estimate": "Wide range", "horizon": "medium", "confidence": "low", "mitigants": ["JLR hedge", "CV upcycle"], "data_gaps": ["JLR China demand", "EV capex returns"] },
+    { "symbol": "RELIANCE", "name": "Reliance Industries", "sector": "Oil & Gas", "impact_score": 0.5, "bucket": "neutral", "primary_channels": ["Commodity Prices", "Currency / INR", "Consumer Demand"], "reasoning": "Integrated O2C benefits from high cracks; retail/telecom steady; new energy optionality", "magnitude_estimate": "Mixed", "horizon": "medium", "confidence": "low", "mitigants": ["Diversified earnings"], "data_gaps": ["O2C crack spread outlook", "New energy monetization"] },
+    { "symbol": "ADANIENT", "name": "Adani Enterprises", "sector": "Metals & Mining", "impact_score": 1.8, "bucket": "positive", "primary_channels": ["Commodity Prices", "Currency / INR", "Global Demand"], "reasoning": "Coal trading, ports, renewables; complex conglomerate; governance overhang", "magnitude_estimate": "Uncertain", "horizon": "medium", "confidence": "low", "mitigants": ["Asset base"], "data_gaps": ["Governance", "Leverage"] }
+  ],
+  "scenarios": [
+    { "name": "best", "narrative": "OPEC+ reverses cuts in Q1 2027; Brent falls to $85; INR recovers to 81; RBI cuts rates", "triggers": ["OPEC+ compliance breakdown", "US shale response", "Global recession fears"], "bucket_shifts": [ { "symbol": "IOC", "from": "danger", "to": "negative" }, { "symbol": "INDIGO", "from": "danger", "to": "negative" }, { "symbol": "ASIANPAINT", "from": "negative", "to": "neutral" } ] },
+    { "name": "base", "narrative": "OPEC+ cuts hold through H1 2027; Brent $100-110; INR 84-85; RBI on hold", "triggers": ["Demand-supply balance", "No major SPR release"], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "Geopolitical escalation; Brent $130+; INR 87+; RBI hikes 50bps; fiscal slippage", "triggers": ["Middle East conflict", "Strait of Hormuz disruption"], "bucket_shifts": [ { "symbol": "BPCL", "from": "danger", "to": "danger" }, { "symbol": "BERGEPAINT", "from": "negative", "to": "danger" }, { "symbol": "APOLLOTYRE", "from": "negative", "to": "danger" } ] }
+  ],
+  "timeline": [
+    { "period": "Day 1-7", "events": ["Brent spikes to $110", "INR depreciates 1-2%", "OMC marketing margins turn negative", "Aviation stocks correct 8-12%"] },
+    { "period": "Week 2-4", "events": ["RBI policy response (hold/hike)", "Govt reviews fuel pricing", "Fertilizer subsidy revised", "Paint cos announce price hikes"] },
+    { "period": "Month 2-3", "events": ["Q3 earnings reflect margin impact", "CAD data shows widening", "FII flows track INR", "Budget FY27 subsidy allocation"] },
+    { "period": "Quarter 1", "events": ["OPEC+ meeting review", "Full pass-through in prices", "Demand destruction visible?", "Alternative energy acceleration"] }
+  ],
+  "watchlist": [
+    { "trigger": "Brent sustains above $115", "action": "Upgrade OMC risk to High Danger; review aviation hedging" },
+    { "trigger": "INR crosses 85/USD", "action": "IT/Pharma upgrade to Massive Gain; corporate FX stress watch" },
+    { "trigger": "RBI hikes repo rate", "action": "Banks re-rated; auto/real estate downgrade; NIM expansion" },
+    { "trigger": "OPEC+ announces cut extension", "action": "Extend negative duration; upstream re-rated higher" }
+  ],
+  "analogues": [
+    { "event": "2008 Oil Spike to $147", "date": "Jul 2008", "outcome": "Nifty -25% in 3M; OMCs -40%; IT +15% on rupee; paints -30%" },
+    { "event": "2011-14 High Oil ($100-115)", "date": "2011-2014", "outcome": "Persistent CAD >4%; INR 45→68; OMCs chronic under-recovery; fiscal strain" },
+    { "event": "2022 Post-Ukraine Spike", "date": "Mar-Jun 2022", "outcome": "Brent $120→$100; INR 76→79; OMCs marketing losses; govt cut excise" }
+  ],
+  "assumptions": [
+    "OPEC+ cuts hold through Q1 2027",
+    "No major SPR release by US/IEA",
+    "Global demand growth 1.0-1.5M bpd in 2027",
+    "Indian govt maintains retail price stability",
+    "RBI prioritizes inflation over growth",
+    "Monsoon normal in 2027",
+    "No major geopolitical escalation in Middle East"
+  ],
+  "appendix": {
+    "models_used": ["gemini-1.5-flash", "gemini-1.5-pro", "gemini-1.5-flash-8b"],
+    "prompt_versions": ["event_understanding_v3", "channel_mapping_v2", "macro_impact_v2", "sector_scoring_v3", "company_scoring_v4", "calibration_v2", "scenario_gen_v2", "report_assembly_v3"],
+    "call_count": 14,
+    "generation_time_seconds": 342,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

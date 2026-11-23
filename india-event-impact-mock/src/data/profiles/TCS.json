@@ -1,0 +1,20 @@
+{
+  "symbol": "TCS",
+  "name": "TCS",
+  "sector": "IT Services",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-10",
+  "business_summary": "India's largest IT services company; $29B revenue; 600k+ employees; 52% revenue from North America; 90%+ USD revenue; leading in BFSI, retail, manufacturing verticals.",
+  "revenue_mix": { "BFSI": 32, "Retail & CPG": 16, "Manufacturing": 12, "Comm & Media": 10, "Life Sciences": 8, "Others": 22 },
+  "exposure_tags": ["export_oriented", "rupee_beneficiary", "low_debt", "strong_fcf", "vendor_consolidation_beneficiary"],
+  "resilience": {
+    "score": 92,
+    "band": "high",
+    "strengths": ["Net cash ₹15000+ cr", "FCF yield 5%+", "USD revenue natural hedge", "Tier-1 vendor status", "Low client concentration", "Strong governance"],
+    "weaknesses": ["Wage inflation pressure", "Onsite cost creep", "Visa policy dependency"],
+    "ratios": { "Debt/Equity": 0.0, "Current Ratio": 3.2, "Interest Coverage": 999, "FCF Yield": "5.2%", "ROE": "48%", "ROCE": "55%" }
+  },
+  "ratios": { "Debt/Equity": 0.0, "Current Ratio": 3.2, "Interest Coverage": 999, "FCF Yield": "5.2%", "ROE": "48%", "ROCE": "55%" },
+  "sources": ["Annual Report FY24", "Investor Presentation Q2FY25", "Analyst Reports", "Bloomberg Fundamentals"]
+}

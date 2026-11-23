@@ -1,0 +1,20 @@
+{
+  "symbol": "MARUTI",
+  "name": "Maruti Suzuki",
+  "sector": "Automobile",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-12",
+  "business_summary": "India's undisputed passenger vehicle leader with ~42% market share, comprehensive dealer network, and rising SUV segment penetration.",
+  "revenue_mix": { "Passenger Cars & SUVs": 88, "Spare Parts & Service": 8, "Other Operating": 4 },
+  "exposure_tags": ["market_leader", "input_cost_sensitivity", "domestic_focused", "ev_transition"],
+  "resilience": {
+    "score": 76,
+    "band": "high",
+    "strengths": ["Unmatched distribution (3,500+ touchpoints)", "Suzuki global hybrid/EV technology pipeline", "Debt-free balance sheet with ₹40k+ cr cash", "Dominant supplier vendor ecosystem"],
+    "weaknesses": ["Steel, aluminium & precious metal cost sensitivity", "Entry-level car segment slowdown", "Higher competitive intensity in electric vehicles"],
+    "ratios": { "Debt/Equity": 0.01, "Current Ratio": 1.4, "Interest Coverage": 85, "FCF Yield": "4.5%", "ROE": "17.4%", "ROCE": "21.6%" }
+  },
+  "ratios": { "Debt/Equity": 0.01, "Current Ratio": 1.4, "Interest Coverage": 85, "FCF Yield": "4.5%", "ROE": "17.4%", "ROCE": "21.6%" },
+  "sources": ["Annual Report FY24", "Investor Deck Q1FY25", "SIAM Production Data"]
+}

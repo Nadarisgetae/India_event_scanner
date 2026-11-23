@@ -1,0 +1,20 @@
+{
+  "symbol": "HDFCBANK",
+  "name": "HDFC Bank",
+  "sector": "Banking",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-12",
+  "business_summary": "India's largest private bank post-merger with HDFC Ltd; ₹24L cr+ balance sheet; 44% CASA ratio; 60% retail loans; best-in-class asset quality (NNPA 0.33%); digital leader.",
+  "revenue_mix": { "Retail Loans": 45, "Corporate Loans": 25, "Fee Income": 15, "Treasury": 10, "Others": 5 },
+  "exposure_tags": ["rate_sensitive", "credit_growth", "deposit_franchise", "nim_management", "merger_integration"],
+  "resilience": {
+    "score": 88,
+    "band": "high",
+    "strengths": ["Best-in-class asset quality (NNPA 0.3%)", "Low-cost deposit franchise (CASA 44%)", "Diversified loan book (retail 60%)", "Strong capital (CET1 17%+)", "Digital leadership", "Proven management"],
+    "weaknesses": ["Merger integration (HDFC Ltd) execution", "Unsecured retail growth watch", "Rate sensitivity if cuts accelerate"],
+    "ratios": { "CET1 Ratio": "17.2%", "NNPA": "0.33%", "PCR": "78%", "NIM": "3.55%", "ROE": "17.5%", "ROA": "1.9%" }
+  },
+  "ratios": { "CET1 Ratio": "17.2%", "NNPA": "0.33%", "PCR": "78%", "NIM": "3.55%", "ROE": "17.5%", "ROA": "1.9%" },
+  "sources": ["Annual Report FY24", "Investor Presentation Q2FY25", "RBI Data", "Bloomberg Fundamentals"]
+}

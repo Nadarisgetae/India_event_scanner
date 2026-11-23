@@ -1,0 +1,75 @@
+[
+  { "sector": "Oil & Gas Upstream", "channel": "Currency / INR", "sensitivity": 2, "reasoning": "Export revenue in USD benefits from weaker INR" },
+  { "sector": "Oil & Gas Upstream", "channel": "Input Costs", "sensitivity": 0, "reasoning": "Producer of inputs, not consumer" },
+  { "sector": "Oil & Gas Upstream", "channel": "Consumer Demand", "sensitivity": 1, "reasoning": "Indirect via downstream demand" },
+  { "sector": "Oil & Gas Upstream", "channel": "Export Competitiveness", "sensitivity": 3, "reasoning": "Direct USD revenue beneficiary" },
+  { "sector": "Oil & Gas Upstream", "channel": "Fiscal / Subsidy Burden", "sensitivity": 1, "reasoning": "Windfall tax risk at high prices" },
+  { "sector": "Oil & Gas Upstream", "channel": "Commodity Prices", "sensitivity": 5, "reasoning": "Direct crude price linkage" },
+  { "sector": "Oil & Gas Upstream", "channel": "Global Demand", "sensitivity": 3, "reasoning": "Global oil demand drives price" },
+  { "sector": "Oil & Gas Upstream", "channel": "Substitution / Alternatives", "sensitivity": -2, "reasoning": "EV/renewables transition risk" },
+
+  { "sector": "Oil Marketing Cos", "channel": "Currency / INR", "sensitivity": -3, "reasoning": "Crude imports in USD, retail prices sticky" },
+  { "sector": "Oil Marketing Cos", "channel": "Input Costs", "sensitivity": -5, "reasoning": "Direct crude cost pass-through lag" },
+  { "sector": "Oil Marketing Cos", "channel": "Consumer Demand", "sensitivity": -1, "reasoning": "High prices reduce volume" },
+  { "sector": "Oil Marketing Cos", "channel": "Fiscal / Subsidy Burden", "sensitivity": -3, "reasoning": "Govt may cap retail prices" },
+  { "sector": "Oil Marketing Cos", "channel": "Commodity Prices", "sensitivity": -5, "reasoning": "Direct crude cost exposure" },
+
+  { "sector": "Paints", "channel": "Currency / INR", "sensitivity": -2, "reasoning": "Raw material imports (TiO2, monomers)" },
+  { "sector": "Paints", "channel": "Input Costs", "sensitivity": -5, "reasoning": "Crude derivatives ~50% of RM cost" },
+  { "sector": "Paints", "channel": "Consumer Demand", "sensitivity": -2, "reasoning": "Discretionary, housing-linked" },
+  { "sector": "Paints", "channel": "Substitution / Alternatives", "sensitivity": 1, "reasoning": "Water-based substitution trend" },
+
+  { "sector": "Tyres", "channel": "Currency / INR", "sensitivity": -2, "reasoning": "Natural rubber, carbon black imports" },
+  { "sector": "Tyres", "channel": "Input Costs", "sensitivity": -5, "reasoning": "Crude derivatives, rubber ~60% RM" },
+  { "sector": "Tyres", "channel": "Export Competitiveness", "sensitivity": 2, "reasoning": "Export ~30% of revenue" },
+
+  { "sector": "Aviation", "channel": "Currency / INR", "sensitivity": -3, "reasoning": "ATF priced in USD, lease USD, revenue INR" },
+  { "sector": "Aviation", "channel": "Input Costs", "sensitivity": -5, "reasoning": "ATF ~35-40% of costs, crude linked" },
+  { "sector": "Aviation", "channel": "Consumer Demand", "sensitivity": -2, "reasoning": "Discretionary travel, fare hikes reduce demand" },
+
+  { "sector": "Cement", "channel": "Input Costs", "sensitivity": -4, "reasoning": "Pet coke, coal, diesel ~30% costs" },
+  { "sector": "Cement", "channel": "Consumer Demand", "sensitivity": -2, "reasoning": "Real estate/infra cycle linked" },
+
+  { "sector": "IT Services", "channel": "Currency / INR", "sensitivity": 3, "reasoning": "Revenue >90% USD, costs largely INR" },
+  { "sector": "IT Services", "channel": "Global Demand", "sensitivity": 2, "reasoning": "US/Europe tech spend drives growth" },
+  { "sector": "IT Services", "channel": "Rates / Monetary Policy", "sensitivity": -1, "reasoning": "Client budget cuts in high rate env" },
+
+  { "sector": "Pharmaceuticals", "channel": "Currency / INR", "sensitivity": 2, "reasoning": "Exports ~50% revenue in USD" },
+  { "sector": "Pharmaceuticals", "channel": "Regulatory", "sensitivity": -2, "reasoning": "US FDA, price controls risk" },
+  { "sector": "Pharmaceuticals", "channel": "Global Demand", "sensitivity": 1, "reasoning": "Aging population, healthcare spend" },
+
+  { "sector": "Auto OEMs", "channel": "Currency / INR", "sensitivity": -1, "reasoning": "Mixed: imports vs exports" },
+  { "sector": "Auto OEMs", "channel": "Input Costs", "sensitivity": -3, "reasoning": "Steel, aluminium, semiconductors" },
+  { "sector": "Auto OEMs", "channel": "Consumer Demand", "sensitivity": -2, "reasoning": "Rate sensitive, discretionary" },
+  { "sector": "Auto OEMs", "channel": "Rates / Monetary Policy", "sensitivity": -2, "reasoning": "Auto loans rate sensitive" },
+
+  { "sector": "Banks", "channel": "Rates / Monetary Policy", "sensitivity": 2, "reasoning": "NIM expansion on rate hikes" },
+  { "sector": "Banks", "channel": "Consumer Demand", "sensitivity": 1, "reasoning": "Credit growth linked to GDP" },
+  { "sector": "Banks", "channel": "Currency / INR", "sensitivity": -1, "reasoning": "Corporate FX stress at weak INR" },
+
+  { "sector": "Consumer Staples", "channel": "Currency / INR", "sensitivity": -1, "reasoning": "Some RM imports, pricing power" },
+  { "sector": "Consumer Staples", "channel": "Input Costs", "sensitivity": -2, "reasoning": "Agri commodities, packaging" },
+  { "sector": "Consumer Staples", "channel": "Consumer Demand", "sensitivity": -1, "reasoning": "Rural income sensitive" },
+
+  { "sector": "Textiles", "channel": "Currency / INR", "sensitivity": 2, "reasoning": "Export oriented, USD revenue" },
+  { "sector": "Textiles", "channel": "Trade Policy / Tariffs", "sensitivity": -3, "reasoning": "US/EU tariff exposure" },
+  { "sector": "Textiles", "channel": "Input Costs", "sensitivity": -2, "reasoning": "Cotton, polyester costs" },
+
+  { "sector": "Chemicals", "channel": "Currency / INR", "sensitivity": 1, "reasoning": "Partial export, import substitution" },
+  { "sector": "Chemicals", "channel": "Input Costs", "sensitivity": -3, "reasoning": "Crude derivatives, gas" },
+  { "sector": "Chemicals", "channel": "Trade Policy / Tariffs", "sensitivity": -2, "reasoning": "China+1 benefit but tariff risk" },
+
+  { "sector": "Metals & Mining", "channel": "Commodity Prices", "sensitivity": 5, "reasoning": "Direct metal price linkage" },
+  { "sector": "Metals & Mining", "channel": "Currency / INR", "sensitivity": 2, "reasoning": "Export parity pricing" },
+  { "sector": "Metals & Mining", "channel": "Global Demand", "sensitivity": 3, "reasoning": "China/global industrial demand" },
+
+  { "sector": "Power", "channel": "Input Costs", "sensitivity": -3, "reasoning": "Coal, gas costs" },
+  { "sector": "Power", "channel": "Regulatory", "sensitivity": -2, "reasoning": "Tariff regulation, PPAs" },
+  { "sector": "Power", "channel": "Currency / INR", "sensitivity": -2, "reasoning": "Imported coal, equipment" },
+
+  { "sector": "Telecom", "channel": "Rates / Monetary Policy", "sensitivity": -2, "reasoning": "High leverage, capex intensive" },
+  { "sector": "Telecom", "channel": "Currency / INR", "sensitivity": -2, "reasoning": "Equipment imports, some USD debt" },
+
+  { "sector": "Capital Goods", "channel": "Consumer Demand", "sensitivity": 3, "reasoning": "Capex cycle beneficiary" },
+  { "sector": "Capital Goods", "channel": "Currency / INR", "sensitivity": 1, "reasoning": "Export orders, import substitution" }
+]

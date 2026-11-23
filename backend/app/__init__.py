@@ -1,0 +1,2 @@
+"""India Event-Impact Intelligence Tool Backend Application."""
+__version__ = "1.0.0"

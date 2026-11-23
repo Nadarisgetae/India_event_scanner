@@ -1,0 +1,48 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.env
+!.env.example
+*.env.local
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Node & Frontend dependencies / build
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# SQLite Database & Market Data Caches
+backend/storage/*.db
+backend/storage/*.db-journal
+backend/storage/*.db-wal
+backend/storage/*.db-shm
+backend/storage/prices/*.parquet
+storage/*.db
+storage/*.db-journal
+storage/*.db-wal
+storage/*.db-shm
+storage/prices/*.parquet
+
+# OS & Temporary
+.DS_Store
+Thumbs.db
+undefined
+*.tmp
+*.log

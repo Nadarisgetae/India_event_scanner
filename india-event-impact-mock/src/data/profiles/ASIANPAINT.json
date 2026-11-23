@@ -1,0 +1,20 @@
+{
+  "symbol": "ASIANPAINT",
+  "name": "Asian Paints",
+  "sector": "Consumer Durables",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-15",
+  "business_summary": "India's largest paint company with ~50% market share in decorative paints. Strong distribution network (70k+ dealers), premium brand portfolio, and increasing industrial coatings presence.",
+  "revenue_mix": { "Decorative": 75, "Industrial": 25 },
+  "exposure_tags": ["high_input_cost_sensitivity", "strong_pricing_power", "domestic_focused", "raw_material_intensive"],
+  "resilience": {
+    "score": 78,
+    "band": "high",
+    "strengths": ["Market leadership (50% share)", "Pricing power (8-10% annual hikes)", "Near zero net debt", "Strong FCF generation (₹2500+ cr/yr)", "60% RM hedged for 6 months", "Diversified manufacturing (7 plants)"],
+    "weaknesses": ["Raw material concentration (crude derivatives)", "Domestic revenue concentration (95%+)", "Unorganized sector competition (30% market)"],
+    "ratios": { "Debt/Equity": 0.02, "Current Ratio": 1.8, "Interest Coverage": 999, "FCF Yield": "4.2%", "ROE": "28%", "ROCE": "32%" }
+  },
+  "ratios": { "Debt/Equity": 0.02, "Current Ratio": 1.8, "Interest Coverage": 999, "FCF Yield": "4.2%", "ROE": "28%", "ROCE": "32%" },
+  "sources": ["Annual Report FY24", "Investor Presentation Q2FY25", "Concall Transcripts", "Bloomberg Fundamentals"]
+}

@@ -1,0 +1,6 @@
+[
+  { "alias": "Key 1 (Primary)", "model": "gemini-1.5-flash", "status": "ok", "used_today": 42, "cap": 1500, "last_error": null },
+  { "alias": "Key 2 (Pro)", "model": "gemini-1.5-pro", "status": "ok", "used_today": 18, "cap": 500, "last_error": null },
+  { "alias": "Key 3 (Flash-8B)", "model": "gemini-1.5-flash-8b", "status": "cooling_down", "used_today": 120, "cap": 2000, "cooldown_until": "2026-10-22T09:25:00+05:30", "last_error": "Rate limited (429) - cooldown 60s" },
+  { "alias": "Key 4 (Backup)", "model": "gemini-1.5-flash", "status": "ok", "used_today": 5, "cap": 1500, "last_error": null }
+]

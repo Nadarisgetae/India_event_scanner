@@ -1,0 +1,20 @@
+{
+  "prices": { "last_refresh": "2026-10-22T09:15:00+05:30", "coverage_pct": 98.5, "stale_warning": false, "sources": ["NSE Bhavcopy", "BSE Bhavcopy", "Yahoo Finance (backup)"] },
+  "fundamentals": { "last_refresh": "2026-10-20T18:00:00+05:30", "coverage_pct": 95.2, "stale_warning": false, "sources": ["Company Filings", "Screener.in", "Bloomberg"] },
+  "news": { "last_refresh": "2026-10-22T09:10:00+05:30", "coverage_pct": 87.3, "stale_warning": false, "sources": ["ET", "BS", "Mint", "Reuters", "Bloomberg", "CNBC", "Moneycontrol"] },
+  "macro": { "last_refresh": "2026-10-22T09:15:00+05:30", "coverage_pct": 100, "stale_warning": false, "sources": ["RBI DBIE", "MoSPI", "World Bank", "FRED", "Investing.com"] },
+  "filings": { "last_refresh": "2026-10-21T20:00:00+05:30", "coverage_pct": 92.1, "stale_warning": false, "sources": ["NSE Corporate Filings", "BSE Corporate Announcements", "SEBI"] },
+  "knowledge_base": { "last_refresh": "2026-10-15T12:00:00+05:30", "coverage_pct": 78.4, "stale_warning": true, "sources": ["Manual Verification", "LLM Drafts", "Analyst Reports"] },
+  "source_health": [
+    { "name": "NSE Bhavcopy", "type": "prices", "status": "ok", "last_success": "2026-10-22T09:15:00+05:30", "error": null },
+    { "name": "BSE Bhavcopy", "type": "prices", "status": "ok", "last_success": "2026-10-22T09:15:00+05:30", "error": null },
+    { "name": "RBI DBIE", "type": "macro", "status": "ok", "last_success": "2026-10-22T09:15:00+05:30", "error": null },
+    { "name": "ET RSS", "type": "news", "status": "ok", "last_success": "2026-10-22T09:10:00+05:30", "error": null },
+    { "name": "BS RSS", "type": "news", "status": "ok", "last_success": "2026-10-22T09:10:00+05:30", "error": null },
+    { "name": "Mint RSS", "type": "news", "status": "ok", "last_success": "2026-10-22T09:10:00+05:30", "error": null },
+    { "name": "Reuters RSS", "type": "news", "status": "ok", "last_success": "2026-10-22T09:10:00+05:30", "error": null },
+    { "name": "NSE Filings", "type": "filings", "status": "ok", "last_success": "2026-10-21T20:00:00+05:30", "error": null },
+    { "name": "Company Annual Reports", "type": "fundamentals", "status": "ok", "last_success": "2026-10-20T18:00:00+05:30", "error": null },
+    { "name": "Sector Matrix", "type": "knowledge", "status": "degraded", "last_success": "2026-10-15T12:00:00+05:30", "error": "Partial coverage - 23/24 sectors" }
+  ]
+}

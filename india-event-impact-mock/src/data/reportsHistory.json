@@ -1,0 +1,9 @@
+[
+  { "id": "MA-1", "type": "market", "title": "Crude Oil Spike to $110", "company": null, "date": "2026-10-22", "depth": "standard", "bucket_counts": { "danger": 3, "negative": 5, "neutral": 8, "positive": 4, "gain": 2 } },
+  { "id": "MB-1", "type": "company", "title": "Asian Paints + Crude $110", "company": "ASIANPAINT", "date": "2026-10-21", "depth": "standard", "bucket_counts": { "danger": 0, "negative": 0, "neutral": 0, "positive": 0, "gain": 0 } },
+  { "id": "MA-3", "type": "market", "title": "RBI Rate Cut 25 bps", "company": null, "date": "2026-10-20", "depth": "deep", "bucket_counts": { "danger": 0, "negative": 2, "neutral": 6, "positive": 7, "gain": 3 } },
+  { "id": "MB-2", "type": "company", "title": "TCS + US Tariffs", "company": "TCS", "date": "2026-10-19", "depth": "standard", "bucket_counts": { "danger": 0, "negative": 0, "neutral": 1, "positive": 0, "gain": 0 } },
+  { "id": "MA-2", "type": "market", "title": "US Tariffs on Indian Goods", "company": null, "date": "2026-10-18", "depth": "quick", "bucket_counts": { "danger": 2, "negative": 6, "neutral": 9, "positive": 3, "gain": 1 } },
+  { "id": "MB-3", "type": "company", "title": "IndiGo + Crude $110", "company": "INDIGO", "date": "2026-10-17", "depth": "standard", "bucket_counts": { "danger": 1, "negative": 0, "neutral": 0, "positive": 0, "gain": 0 } },
+  { "id": "MB-4", "type": "company", "title": "HDFC Bank + Rate Cut", "company": "HDFCBANK", "date": "2026-10-16", "depth": "standard", "bucket_counts": { "danger": 0, "negative": 0, "neutral": 0, "positive": 1, "gain": 0 } }
+]

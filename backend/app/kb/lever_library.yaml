@@ -1,0 +1,59 @@
+defend_levers:
+  - id: fx_hedging
+    name: "Foreign Exchange Forward & Option Hedging"
+    owner: "CFO / Treasury"
+    cost_effort: "low"
+    why: "Lock in forward rates to insulate working capital and foreign debt service from rupee volatility."
+  - id: pricing_pass_through
+    name: "Dynamic Pricing Surcharges & Escalation Clauses"
+    owner: "Chief Commercial Officer / Sales"
+    cost_effort: "medium"
+    why: "Pass through raw material and fuel inflation to distributor channels with minimum margin lag."
+  - id: supplier_diversification
+    name: "Alternate Sourcing & Supplier Diversification"
+    owner: "Head of Procurement"
+    cost_effort: "medium"
+    why: "De-risk single-vendor and single-geography dependency to prevent supply disruption."
+  - id: inventory_buffer
+    name: "Strategic Inventory Buffering & Forward Contracts"
+    owner: "Supply Chain Head"
+    cost_effort: "medium"
+    why: "Pre-purchase essential inputs prior to anticipated tariff enforcement or seasonal price spikes."
+  - id: cost_containment
+    name: "Discretionary Cost Rationalization & Opex Freeze"
+    owner: "Chief Operating Officer"
+    cost_effort: "low"
+    why: "Freeze non-essential marketing, travel, and consultant spend to protect EBITDA baseline."
+  - id: liquidity_runway
+    name: "Pre-Emptive Working Capital & Credit Line Expansion"
+    owner: "CFO"
+    cost_effort: "low"
+    why: "Secure committed revolving bank credit lines to guarantee liquidity runway exceeding 12 months."
+
+capitalize_levers:
+  - id: market_share_capture
+    name: "Aggressive Shelf Space & Market Share Capture"
+    owner: "Head of Marketing & Sales"
+    cost_effort: "medium"
+    why: "Leverage healthy balance sheet to offer trade credit and capture accounts from stressed rivals."
+  - id: capacity_expansion
+    name: "Accelerated Brownfield Capacity Commercialization"
+    owner: "Head of Manufacturing"
+    cost_effort: "high"
+    why: "Ramp up output to meet supply shortages created by competitor outages or import restrictions."
+  - id: product_premiumization
+    name: "Focus on High-Margin & Resilient Product Mix"
+    owner: "Product Strategy Head"
+    cost_effort: "medium"
+    why: "Prioritize specialized and premium lines that carry superior pricing power and customer stickiness."
+  - id: export_diversification
+    name: "Alternative Geography Export Penetration"
+    owner: "Head of International Business"
+    cost_effort: "high"
+    why: "Redirect export shipments to Southeast Asia, Middle East, and Latin America if specific trade tariffs hit."
+  - id: distressed_mna
+    name: "Opportunistic Consolidation & M&A"
+    owner: "Head of Corporate Strategy"
+    cost_effort: "high"
+    why: "Acquire financially stressed regional competitors at attractive enterprise value valuations."
+

@@ -1,0 +1,133 @@
+{
+  "id": "MA-2",
+  "type": "market",
+  "event": {
+    "headline": "US imposes higher tariffs on Indian goods",
+    "event_type": "trade_action",
+    "geographies": ["US", "India"],
+    "magnitude": "high",
+    "duration": "long",
+    "certainty": "high",
+    "direction_for_india": "negative",
+    "key_facts": [
+      "US announces 25% tariff on Indian textiles, auto parts, gems & jewellery",
+      "Effective immediately; covers ~$12B annual exports",
+      "India retaliates with tariffs on US almonds, apples, chemicals",
+      "WTO dispute filing expected",
+      "Supply chain relocation talks accelerate"
+    ],
+    "unknowns": [
+      "Scope expansion to pharma, IT services",
+      "Duration of tariffs (election cycle?)",
+      "Extent of supply chain shifting to Vietnam/Mexico",
+      "Rupee impact from reduced export earnings",
+      "Domestic policy response (PLI, FTAs)"
+    ]
+  },
+  "channels": [
+    { "channel": "Trade Policy / Tariffs", "active": true, "direction": "negative", "strength": 5, "reason": "Direct 25% tariff on key export sectors" },
+    { "channel": "Currency / INR", "active": true, "direction": "negative", "strength": 3, "reason": "Reduced export earnings widen CAD; risk-off flows" },
+    { "channel": "Export Competitiveness", "active": true, "direction": "negative", "strength": 4, "reason": "Indian goods 25% more expensive in US market" },
+    { "channel": "Global Demand", "active": true, "direction": "negative", "strength": 3, "reason": "US demand destruction for affected categories" },
+    { "channel": "Substitution / Alternatives", "active": true, "direction": "positive", "strength": 2, "reason": "Accelerates China+1; some buyers may stay for quality" },
+    { "channel": "Fiscal / Subsidy Burden", "active": true, "direction": "negative", "strength": 2, "reason": "Govt may need support packages for affected sectors" }
+  ],
+  "macro": {
+    "gdp": { "direction": "negative", "magnitude_band": "medium", "confidence": "medium", "horizon": "long" },
+    "cpi": { "direction": "neutral", "magnitude_band": "small", "confidence": "medium", "horizon": "medium" },
+    "cad": { "direction": "negative", "magnitude_band": "medium", "confidence": "high", "horizon": "medium" },
+    "inr": { "direction": "negative", "magnitude_band": "medium", "confidence": "high", "horizon": "short" },
+    "yield10y": { "direction": "negative", "magnitude_band": "small", "confidence": "low", "horizon": "medium" },
+    "rbi_stance": { "direction": "neutral", "magnitude_band": "small", "confidence": "medium", "horizon": "medium" },
+    "fii_flows": { "direction": "negative", "magnitude_band": "medium", "confidence": "medium", "horizon": "short" },
+    "index_tone": { "direction": "negative", "magnitude_band": "medium", "confidence": "high", "horizon": "short" }
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 16.5,
+    "usd_inr": 83.50,
+    "brent": 87.50,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.50,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "sectors": [
+    { "sector": "Textiles", "score": -4.5, "confidence": "high", "reason": "Direct 25% tariff; ~$8B exports to US; low margin buffer", "key_channels": ["Trade Policy / Tariffs", "Export Competitiveness", "Currency / INR"] },
+    { "sector": "Auto OEMs", "score": -3.0, "confidence": "high", "reason": "Auto parts ~$2B exports; OEMs with US exposure hit; domestic demand ok", "key_channels": ["Trade Policy / Tariffs", "Export Competitiveness"] },
+    { "sector": "Gems & Jewellery", "score": -4.0, "confidence": "high", "reason": "High US exposure; discretionary; lab-grown competition adds pressure", "key_channels": ["Trade Policy / Tariffs", "Export Competitiveness", "Consumer Demand"] },
+    { "sector": "IT Services", "score": -0.5, "confidence": "medium", "reason": "Services not directly tariffed; but sentiment hit; visa risk; rupee helps", "key_channels": ["Currency / INR", "Global Demand", "Regulatory"] },
+    { "sector": "Pharmaceuticals", "score": 0.5, "confidence": "medium", "reason": "Generics critical for US healthcare; likely exempt; rupee tailwind", "key_channels": ["Currency / INR", "Global Demand", "Regulatory"] },
+    { "sector": "Chemicals", "score": -1.5, "confidence": "medium", "reason": "Some specialty chem tariffed; China+1 benefit partially offsets", "key_channels": ["Trade Policy / Tariffs", "Currency / INR", "Export Competitiveness"] },
+    { "sector": "Metals & Mining", "score": -1.0, "confidence": "medium", "reason": "Steel/aluminium may face separate 252 tariffs; global prices matter more", "key_channels": ["Trade Policy / Tariffs", "Commodity Prices"] },
+    { "sector": "Capital Goods", "score": 1.0, "confidence": "medium", "reason": "Domestic capex cycle strong; import substitution narrative helps", "key_channels": ["Consumer Demand", "Regulatory"] },
+    { "sector": "Banks", "score": -0.5, "confidence": "medium", "reason": "Corporate credit to affected sectors; but diversified book", "key_channels": ["Consumer Demand", "Currency / INR"] },
+    { "sector": "Consumer Staples", "score": 0.0, "confidence": "high", "reason": "Domestic focused; minimal direct impact", "key_channels": [] },
+    { "sector": "Oil & Gas Upstream", "score": 0.0, "confidence": "high", "reason": "No direct link", "key_channels": [] },
+    { "sector": "Oil Marketing Cos", "score": 0.0, "confidence": "high", "reason": "No direct link", "key_channels": [] },
+    { "sector": "Paints", "score": -0.5, "confidence": "medium", "reason": "Indirect via auto demand; housing linked", "key_channels": ["Consumer Demand"] },
+    { "sector": "Tyres", "score": -1.0, "confidence": "medium", "reason": "Auto parts tariff hits OE supply; replacement market ok", "key_channels": ["Trade Policy / Tariffs", "Consumer Demand"] },
+    { "sector": "Aviation", "score": 0.0, "confidence": "high", "reason": "No direct link", "key_channels": [] },
+    { "sector": "Cement", "score": 0.5, "confidence": "medium", "reason": "Infra spend may accelerate as govt offsets export hit", "key_channels": ["Consumer Demand"] },
+    { "sector": "Telecom", "score": 0.0, "confidence": "high", "reason": "Domestic focused", "key_channels": [] },
+    { "sector": "Retail", "score": -0.5, "confidence": "medium", "reason": "Discretionary sentiment hit", "key_channels": ["Consumer Demand"] },
+    { "sector": "Financial Services", "score": -0.5, "confidence": "medium", "reason": "Credit to export sectors", "key_channels": ["Consumer Demand"] },
+    { "sector": "Logistics", "score": -1.0, "confidence": "medium", "reason": "Export volume decline", "key_channels": ["Global Demand", "Export Competitiveness"] },
+    { "sector": "Healthcare", "score": 0.5, "confidence": "medium", "reason": "Pharma exports resilient; hospitals domestic", "key_channels": ["Global Demand"] }
+  ],
+  "companies": [
+    { "symbol": "TCS", "name": "TCS", "sector": "IT Services", "impact_score": -0.3, "bucket": "neutral", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "Services not tariffed; rupee depreciation offsets sentiment; visa policy watch", "magnitude_estimate": "Flat EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Rupee tailwind", "Diversified client base"], "data_gaps": ["Visa policy changes"] },
+    { "symbol": "INFY", "name": "Infosys", "sector": "IT Services", "impact_score": -0.5, "bucket": "neutral", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "Similar to TCS; higher discretionary exposure", "magnitude_estimate": "Flat to -3% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Rupee tailwind"], "data_gaps": [] },
+    { "symbol": "SUNPHARMA", "name": "Sun Pharma", "sector": "Pharmaceuticals", "impact_score": 1.8, "bucket": "positive", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "Generics essential for US; tariff exemption likely; rupee benefit", "magnitude_estimate": "+2-4% EPS", "horizon": "medium", "confidence": "high", "mitigants": [], "data_gaps": ["FDA inspections"] },
+    { "symbol": "DRREDDY", "name": "Dr Reddy's Labs", "sector": "Pharmaceuticals", "impact_score": 1.6, "bucket": "positive", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "US generics leader; complex products less substitutable", "magnitude_estimate": "+2-3% EPS", "horizon": "medium", "confidence": "high", "mitigants": [], "data_gaps": [] },
+    { "symbol": "MARUTI", "name": "Maruti Suzuki", "sector": "Auto OEMs", "impact_score": -2.5, "bucket": "negative", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness"], "reasoning": "Auto parts exports to US; domestic demand resilient", "magnitude_estimate": "-5-10% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Domestic market leader", "SUV mix improvement"], "data_gaps": [] },
+    { "symbol": "TATAMOTORS", "name": "Tata Motors", "sector": "Auto OEMs", "impact_score": -2.0, "bucket": "negative", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness"], "reasoning": "JLR US exposure; India auto parts exports", "magnitude_estimate": "-5-10% EPS", "horizon": "medium", "confidence": "medium", "mitigants": ["JLR pricing power"], "data_gaps": ["JLR US volume"] },
+    { "symbol": "TITAN", "name": "Titan Company", "sector": "Consumer Durables", "impact_score": -3.5, "bucket": "danger", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness"], "reasoning": "Gems & jewellery ~30% revenue; high US exposure; discretionary", "magnitude_estimate": "-15-20% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Domestic wedding demand", "CaratLane digital"], "data_gaps": ["Lab-grown substitution rate"] },
+    { "symbol": "KALYANKJIL", "name": "Kalyan Jewellers", "sector": "Consumer Durables", "impact_score": -3.8, "bucket": "danger", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness"], "reasoning": "Similar to Titan but smaller scale, less diversification", "magnitude_estimate": "-20-25% EPS", "horizon": "medium", "confidence": "high", "mitigants": [], "data_gaps": [] },
+    { "symbol": "PAGEIND", "name": "Page Industries", "sector": "Textiles", "impact_score": -4.2, "bucket": "danger", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness", "Currency / INR"], "reasoning": "Jockey licensee; significant US exports; premium innerwear", "magnitude_estimate": "-25-30% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Brand loyalty"], "data_gaps": [] },
+    { "symbol": "ARVIND", "name": "Arvind Ltd", "sector": "Textiles", "impact_score": -3.8, "bucket": "danger", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness"], "reasoning": "Denim, garment exports to US; margin pressure", "magnitude_estimate": "-20-25% EPS", "horizon": "medium", "confidence": "high", "mitigants": ["Technical textiles diversification"], "data_gaps": [] },
+    { "symbol": "RELIANCE", "name": "Reliance Industries", "sector": "Oil & Gas", "impact_score": 0.0, "bucket": "neutral", "primary_channels": ["Currency / INR"], "reasoning": "O2C integrated; retail/telecom domestic; new energy policy tailwind", "magnitude_estimate": "Mixed", "horizon": "long", "confidence": "medium", "mitigants": ["Diversified"], "data_gaps": [] }
+  ],
+  "uncertain": [
+    { "symbol": "WIPRO", "name": "Wipro", "sector": "IT Services", "impact_score": -0.8, "bucket": "neutral", "primary_channels": ["Currency / INR", "Global Demand"], "reasoning": "Higher consulting mix; more discretionary spend exposure", "magnitude_estimate": "Uncertain", "horizon": "medium", "confidence": "low", "mitigants": [], "data_gaps": ["Consulting demand"] },
+    { "symbol": "BAJAJAUTO", "name": "Bajaj Auto", "sector": "Auto OEMs", "impact_score": -1.5, "bucket": "neutral", "primary_channels": ["Trade Policy / Tariffs", "Export Competitiveness"], "reasoning": "Motorcycle exports to US/latam; domestic strong", "magnitude_estimate": "Wide", "horizon": "medium", "confidence": "low", "mitigants": [], "data_gaps": [] }
+  ],
+  "scenarios": [
+    { "name": "best", "narrative": "Tariffs limited to current list; India-US FTA talks progress; supply chains adjust", "triggers": ["FTA negotiation launch", "US importer lobbying", "India PLI 2.0"], "bucket_shifts": [ { "symbol": "PAGEIND", "from": "danger", "to": "negative" }, { "symbol": "TITAN", "from": "negative", "to": "neutral" } ] },
+    { "name": "base", "narrative": "Tariffs hold 12-18 months; partial supply chain shift; rupee 84-85", "triggers": ["WTO process slow", "No FTA breakthrough"], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "Tariffs expand to pharma, IT services, steel; global trade war escalates", "triggers": ["Retaliation spiral", "US election protectionism"], "bucket_shifts": [ { "symbol": "SUNPHARMA", "from": "positive", "to": "neutral" }, { "symbol": "TCS", "from": "neutral", "to": "negative" } ] }
+  ],
+  "timeline": [
+    { "period": "Day 1-7", "events": ["Tariffs effective", "Affected stocks gap down 10-15%", "INR depreciates 1-2%", "Govt announces review"] },
+    { "period": "Week 2-4", "events": ["India retaliatory tariffs", "WTO dispute filed", "Buyer conversations start", "PLI scheme review"] },
+    { "period": "Month 2-3", "events": ["Order cancellations visible", "Inventory build-up", "Currency stabilizes", "Budget support measures"] },
+    { "period": "Quarter 1", "events": ["Supply chain relocation starts", "Export data shows impact", "Earnings reflect hit", "Policy response clarity"] }
+  ],
+  "watchlist": [
+    { "trigger": "Tariffs expanded to pharma/IT", "action": "Downgrade pharma/IT to negative; upgrade domestic defensives" },
+    { "trigger": "India-US FTA talks announced", "action": "Upgrade textiles, auto parts, gems on hope trade" },
+    { "trigger": "INR crosses 85", "action": "IT/Pharma upgrade; importers downgrade" }
+  ],
+  "analogues": [
+    { "event": "2018 US Steel/Aluminium Tariffs (232)", "date": "Mar 2018", "outcome": "Indian steel -20%; auto parts -15%; INR 65→72; IT resilient" },
+    { "event": "2019 US GSP Withdrawal", "date": "Jun 2019", "outcome": "$6.3B exports affected; textiles, jewellery hit; limited macro impact" },
+    { "event": "2020 US-China Trade War Peak", "date": "2018-2020", "outcome": "China+1 beneficiary; India chemical, textile gains; but global demand hit" }
+  ],
+  "assumptions": [
+    "Tariffs limited to announced categories",
+    "No immediate expansion to services",
+    "WTO process takes 2+ years",
+    "India retaliates proportionately",
+    "Global growth slows but no recession",
+    "Rupee settles 84-85 range"
+  ],
+  "appendix": {
+    "models_used": ["gemini-1.5-flash", "gemini-1.5-pro"],
+    "prompt_versions": ["event_understanding_v3", "channel_mapping_v2", "macro_impact_v2", "sector_scoring_v3", "company_scoring_v4", "calibration_v2", "scenario_gen_v2", "report_assembly_v3"],
+    "call_count": 14,
+    "generation_time_seconds": 318,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

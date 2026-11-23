@@ -1,0 +1,6 @@
+[
+  { "name": "gemini-1.5-flash", "provider": "Google", "tier": "free", "success_rate": 0.95, "ban_penalty": "none", "avg_latency_ms": 1200, "context_window": 1000000, "best_for": ["fast_scoring", "batch_processing", "summarization"] },
+  { "name": "gemini-1.5-pro", "provider": "Google", "tier": "free", "success_rate": 0.92, "ban_penalty": "soft", "avg_latency_ms": 2800, "context_window": 2000000, "best_for": ["complex_reasoning", "macro_analysis", "scenario_generation"] },
+  { "name": "gemini-1.5-flash-8b", "provider": "Google", "tier": "free", "success_rate": 0.90, "ban_penalty": "none", "avg_latency_ms": 800, "context_window": 1000000, "best_for": ["high_volume", "simple_classification", "extraction"] },
+  { "name": "gemini-1.5-pro-latest", "provider": "Google", "tier": "free", "success_rate": 0.93, "ban_penalty": "soft", "avg_latency_ms": 3200, "context_window": 2000000, "best_for": ["latest_capabilities", "multimodal", "long_context"] }
+]

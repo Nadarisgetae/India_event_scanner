@@ -1,0 +1,20 @@
+{
+  "symbol": "SUNPHARMA",
+  "name": "Sun Pharma",
+  "sector": "Pharmaceuticals",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-14",
+  "business_summary": "India's largest pharmaceutical company and the 4th largest specialty generic manufacturer globally, with market leadership in domestic chronic therapies.",
+  "revenue_mix": { "India Formulations": 32, "US Formulations (Generic + Specialty)": 31, "Emerging Markets": 18, "Rest of World": 14, "Active Ingredients": 5 },
+  "exposure_tags": ["us_generics_leader", "specialty_pipeline", "rupee_beneficiary", "regulatory_exposure"],
+  "resilience": {
+    "score": 82,
+    "band": "high",
+    "strengths": ["Global specialty revenue scaling >$1B annually", "Low debt with robust operating cash flows", "Domestic chronic segment brand stickiness", "High EBITDA margin profile (26-28%)"],
+    "weaknesses": ["US FDA plant inspections and warning letters", "Generic price erosion in the US", "R&D clinical trial expenditure risks"],
+    "ratios": { "Debt/Equity": 0.04, "Current Ratio": 2.2, "Interest Coverage": 95, "FCF Yield": "4.8%", "ROE": "16.5%", "ROCE": "18.2%" }
+  },
+  "ratios": { "Debt/Equity": 0.04, "Current Ratio": 2.2, "Interest Coverage": 95, "FCF Yield": "4.8%", "ROE": "16.5%", "ROCE": "18.2%" },
+  "sources": ["Annual Report FY24", "Investor Presentation Q1FY25", "FDA Tracker"]
+}

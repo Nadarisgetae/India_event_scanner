@@ -1,0 +1,41 @@
+date,title,event_type,magnitude,benchmark_outcome
+2014-05-16,NDA General Election Victory 2014,political,major,Sensex reached record highs on anticipated structural reforms and infrastructure capex push
+2015-08-24,China Yuan Devaluation and Global Market Selloff,monetary,major,Nifty fell 5% in single session; metals and commodity cyclicals saw acute margin contraction
+2016-06-18,Raghuram Rajan Announces Exit as RBI Governor,monetary,moderate,INR weakened briefly before foreign inflows stabilized on inflation framework institutionalization
+2016-11-08,Demonetisation of Rs 500 and Rs 1000 Banknotes,monetary,extreme,Cash-sensitive sectors (Real Estate NBFCs FMCG) crashed; private digital banks and cashless beneficiaries gained
+2017-03-11,UP State Election Landmark Result,political,major,Market rallied strongly on confirmation of political stability and federal reform execution
+2017-07-01,Goods and Services Tax (GST) National Rollout,fiscal,major,Organized sector leaders gained market share; unorganized supply chains faced multi-quarter compliance friction
+2018-02-01,Union Budget Reintroduces 10% Long Term Capital Gains Tax,fiscal,moderate,Nifty corrected 4% over the following fortnight as domestic equities digested LTCG reintroduction
+2018-08-01,Crude Spikes Past $85/bbl and Rupee Drops Past 73,macro,major,OMCs and Paints margins contracted sharply; Upstream oil producers and exporters outperformed
+2018-09-15,IL&FS Default and Liquidity Crisis,monetary,extreme,NBFC credit spreads spiked sharply; PSU banks underperformed while high-CASA private banks absorbed market share
+2019-02-26,Balakot Airstrike and Geopolitical Tensions with Pakistan,geopolitical,moderate,Defence and PSU firms gained attention; intraday dip bought swiftly by domestic institutions
+2019-05-23,NDA Re-elected with Increased Lok Sabha Majority,political,major,Broad market relief rally led by banks, capital goods, and domestic infrastructure proxies
+2019-07-05,Union Budget Super-Rich Tax Surcharge on FPIs,fiscal,major,Heavy FPI selling witnessed across largecaps until government reversed surcharge in August 2019
+2019-09-20,Historic Corporate Tax Cut from 30% to 22%,fiscal,extreme,Manufacturing and domestic corporate earnings surged; Sensex recorded largest single-day rally (+5.3%)
+2020-03-05,Yes Bank Moratorium and SBI-Led Reconstruction,monetary,major,Private sector banking deposit polarization accelerated towards top-3 tier-1 private banks
+2020-03-24,National COVID-19 Lockdown Announced,health,extreme,Aviation hospitality and auto collapsed; Pharma IT Services and Telecom recorded historic multi-year outperformance
+2020-05-12,Atmanirbhar Bharat Rs 20 Lakh Crore Stimulus Package,fiscal,major,MSME credit guarantees and domestic manufacturing PLI policies laid foundation for capex resurgence
+2020-06-15,Galwan Valley Border Clash and Anti-China Economic Action,geopolitical,moderate,India banned 59 Chinese apps; domestic electronics manufacturing and defense indigenization accelerated
+2020-11-11,PLI Schemes Expanded Across 10 Manufacturing Sectors,fiscal,major,Auto components electronics textiles and specialty chemicals gained strong policy subsidies
+2021-02-01,Union Budget 2021 Big Capex and Asset Reconstruction Push,fiscal,major,Nifty rallied 5% in budget week; banking and infrastructure stocks experienced heavy institutional buying
+2021-04-15,Second Wave COVID-19 Delta Variant Crisis,health,major,Domestic healthcare and pharma diagnostics stocks rallied while retail mobility sectors paused temporarily
+2021-10-15,India Thermal Coal Shortage and Power Plant Depletion,supply_chain,moderate,Coal India and power generators operated at peak capacity; merchant electricity tariffs surged
+2022-02-24,Russia-Ukraine War Outbreak,geopolitical,extreme,Brent crude spiked to $130/bbl hurting OMCs and Paints; Upstream oil and metals producers surged
+2022-05-04,RBI Surprise Off-Cycle Repo Rate Hike 40 bps,monetary,major,Rate-sensitive real estate and high-debt firms paused; Banking NIM expanded initially
+2022-05-21,Duty Cuts on Fuel and Export Duty on Steel/Iron Ore,fiscal,major,Steel producers faced severe valuation derating; inflation expectations cooled for consumer goods
+2022-07-01,Windfall Profit Tax Imposed on Domestic Crude & Fuel Exports,fiscal,major,Reliance and ONGC valuations derated temporarily as refining margins were partially capped
+2022-10-19,Rupee Hits Historical Low of 83 per US Dollar,macro,major,IT Services and Pharma exporters saw currency tailwinds while import-reliant chemicals faced cost inflation
+2023-01-24,Hindenburg Report on Adani Group,corporate,major,Adani group stocks declined 50%+; PSU lenders faced scrutiny while broader Nifty absorbed event within 4 weeks
+2023-02-01,Union Budget 2023 Raises Capital Investment by 33% to Rs 10 Lakh Cr,fiscal,major,Capital Goods Railways and Defence stocks sustained multi-month institutional bull run
+2023-03-10,Silicon Valley Bank (SVB) Collapse and US Regional Banking Crisis,monetary,major,IT services valuations pressured on US regional banking tech spend freeze; Indian banks unimpacted
+2023-05-19,RBI Announces Withdrawal of Rs 2000 Denomination Banknotes,monetary,moderate,Systemic banking liquidity swelled by Rs 3.5 Lakh Cr; bank credit growth accelerated
+2023-07-20,Government Bans Non-Basmati White Rice Exports,trade,moderate,Domestic rice and food grain inflation contained; food processors faced global supply realignment
+2023-10-07,Middle East Geopolitical Conflict Escalation,geopolitical,moderate,Crude risk premium elevated; shipping and fertilizer sectors monitored for Red Sea rerouting
+2023-12-03,BJP Wins Three Key State Elections (MP Rajasthan Chhattisgarh),political,major,Market rallied 3% in two sessions anticipating uninterrupted policy continuity in 2024
+2024-01-31,RBI Regulatory Clampdown on Paytm Payments Bank,regulatory,major,Fintech sector faced strict compliance re-rating; traditional deposit-taking banks gained market share
+2024-02-01,Interim Budget 2024 Sets Fiscal Deficit Target at 5.1%,fiscal,major,Bond yields softened as fiscal discipline surprised street; foreign sovereign flows picked up
+2024-03-12,SEBI Chair Issues Froth Warning on Small and Midcap Valuations,regulatory,major,Smallcap indices corrected 8-10%; institutional money rotated back to high-quality largecaps
+2024-06-04,Lok Sabha Election Result Volatility,political,extreme,PSU and capex-heavy stocks corrected 15-20% on election day then rallied to new highs on policy continuity
+2024-07-23,Union Budget Raises Short-Term (20%) and Long-Term (12.5%) Capital Gains Tax,fiscal,major,Initial market selloff was rapidly absorbed by record domestic SIP mutual fund inflows
+2024-09-18,US Federal Reserve Implements Jumbo 50 bps Interest Rate Cut,monetary,major,Global risk assets rallied; FPI flows surged into emerging markets including India
+2024-10-01,SEBI Implements Index Derivatives (F&O) Regulatory Framework,regulatory,major,Retail speculation in options curbed; broking revenue estimates adjusted lower

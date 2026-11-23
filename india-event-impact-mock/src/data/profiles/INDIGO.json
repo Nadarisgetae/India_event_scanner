@@ -1,0 +1,20 @@
+{
+  "symbol": "INDIGO",
+  "name": "InterGlobe Aviation",
+  "sector": "Aviation",
+  "verification": "llm-draft",
+  "confidence": "Medium",
+  "last_verified": "2026-08-20",
+  "business_summary": "India's largest airline with ~60% domestic market share; 350+ aircraft fleet (A320 family); low-cost carrier model; no fuel hedging policy; expanding international routes.",
+  "revenue_mix": { "Domestic Passenger": 70, "International Passenger": 25, "Cargo & Ancillary": 5 },
+  "exposure_tags": ["high_atf_sensitivity", "domestic_focused", "fleet_expansion", "currency_sensitive", "no_fuel_hedging"],
+  "resilience": {
+    "score": 45,
+    "band": "medium",
+    "strengths": ["Market leader (60% share)", "Cost discipline (lowest CASK ex-fuel)", "Strong brand", "Advance booking cash flow", "Young fleet (fuel efficient)"],
+    "weaknesses": ["No fuel hedging", "High USD lease exposure", "Thin margins at high crude", "Single aircraft type risk (A320 family)"],
+    "ratios": { "Debt/Equity": 2.8, "Current Ratio": 0.6, "Interest Coverage": 2.5, "FCF Yield": "2.1%", "ROE": "18%", "ROCE": "12%" }
+  },
+  "ratios": { "Debt/Equity": 2.8, "Current Ratio": 0.6, "Interest Coverage": 2.5, "FCF Yield": "2.1%", "ROE": "18%", "ROCE": "12%" },
+  "sources": ["Annual Report FY24", "DGCA Data", "Investor Presentation", "Bloomberg Fundamentals"]
+}

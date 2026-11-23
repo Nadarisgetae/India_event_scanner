@@ -1,0 +1,120 @@
+{
+  "quick_start": {
+    "title": "Quick Start",
+    "sections": [
+      { "heading": "1. Choose Your Mode", "content": "From the home page, pick either <strong>Market Impact</strong> (event → sector/company scores) or <strong>Company Impact</strong> (company + event → Defend/Capitalize plan)." },
+      { "heading": "2. Enter an Event", "content": "Paste a news headline, article text, or describe an event in your own words. Be specific: include magnitude, geography, and numbers where possible." },
+      { "heading": "3. Select Depth", "content": "<strong>Quick</strong> (~2 min, 15 companies) • <strong>Standard</strong> (~6 min, 50 companies) • <strong>Deep</strong> (~12 min, 100+ companies)" },
+      { "heading": "4. Confirm & Run", "content": "Review the parsed event, edit if needed, then hit <strong>Run Analysis</strong>. Watch the simulated pipeline with live gateway feed." },
+      { "heading": "5. Read the Report", "content": "Reports include executive summary, sector heatmap, company buckets (5 tiers), scenarios, timeline, and more. Company reports add dimension analysis, resilience radar, and a 3-column Defend/Capitalize plan." }
+    ]
+  },
+  "how_to_write_event": {
+    "title": "How to Write a Good Event",
+    "good_examples": [
+      "Crude oil spikes to $110 after OPEC+ announces 2M bpd supply cut extension through Q1 2027. Brent futures jump 15% in a week. India imports 85% of crude.",
+      "US imposes 25% tariff on Indian textiles ($8B), auto parts ($2B), gems & jewellery ($2B). Effective immediately. India retaliates with tariffs on US almonds, apples.",
+      "RBI MPC cuts repo rate by 25 bps to 6.25%; stance changes to 'accommodative'. CPI at 4.2%. GDP forecast 7.0%. First cut since Apr 2023."
+    ],
+    "bad_examples": [
+      "Oil prices up",
+      "Trade war getting worse",
+      "RBI does something with rates"
+    ],
+    "tips": [
+      "Include specific numbers (prices, percentages, volumes)",
+      "Name the geographies affected",
+      "Mention the source or trigger (OPEC+, RBI, US govt)",
+      "State the duration if known (temporary vs structural)",
+      "Mention any policy responses already announced"
+    ]
+  },
+  "how_to_read_market_report": {
+    "title": "How to Read the Market Impact Report",
+    "sections": [
+      { "heading": "Executive Summary + Verdict Box", "content": "One-paragraph takeaway + market tone arrow, bucket counts, confidence. Start here." },
+      { "heading": "Event & Channels", "content": "What the engine understood. Channels show transmission paths with strength (1-5) and direction." },
+      { "heading": "Macro Impact Table", "content": "GDP, CPI, CAD, INR, yields, RBI stance, FII flows, index tone — each with direction, magnitude, confidence, horizon." },
+      { "heading": "Sector Heatmap", "content": "25 sectors scored -5 to +5. Hover for reasoning. Click to filter company tables." },
+      { "heading": "Company Buckets (5 tiers)", "content": "<span class='text-bucket-danger'>■ High Danger</span> ≤ -3.5 | <span class='text-bucket-negative'>■ Moderate Negative</span> -3.5 to -1.5 | <span class='text-bucket-neutral'>■ Little/No Effect</span> -1.5 to +1.5 | <span class='text-bucket-positive'>■ Moderate Positive</span> +1.5 to +3.5 | <span class='text-bucket-gain'>■ Massive Gain</span> ≥ +3.5. Click a row for full reasoning drawer." },
+      { "heading": "Uncertain List", "content": "Companies where confidence is low — read the data gaps." },
+      { "heading": "Scenarios", "content": "Best / Base / Worst with narrative, triggers, and which companies shift buckets." },
+      { "heading": "Timeline & Watchlist", "content": "Day 1 → Quarter 1 expected developments + specific triggers to monitor." }
+    ]
+  },
+  "how_to_read_company_report": {
+    "title": "How to Read the Company Impact Report",
+    "sections": [
+      { "heading": "At-a-Glance Box", "content": "Net impact score (-3 to +3), resilience band, stance (Defend/Capitalize/Both), confidence." },
+      { "heading": "Impact by Dimension (13 rows)", "content": "Each dimension scored -3 to +3 with expandable explanation, evidence, magnitude, timing, confidence. Dimensions: Revenue, Pricing, Input Costs, Margins, Working Capital, Debt & Interest, Forex, Supply Chain, Demand, Regulatory, Reputation, Capex, Governance." },
+      { "heading": "Financial Resilience", "content": "Score 0-100, band (High/Med/Low), strengths/weaknesses, key ratios (Debt/Equity, Current Ratio, Interest Coverage, FCF Yield, ROE, ROCE), radar chart." },
+      { "heading": "Market View", "content": "Technical bias (1D/1W/1M), priced-in check, 10 news headlines with sentiment + materiality chips." },
+      { "heading": "Peer Comparison", "content": "4-5 peers with impact scores, buckets, and better/worse vs subject." },
+      { "heading": "Strategic Plan — Defend | Capitalize", "content": "Two tabs, each with three time columns: Immediate (0-30d), Short (1-6m), Long (6-24m). Action cards: action, lever, why, owner, effort, expected effect, risk. Checkbox to mark 'considered'." },
+      { "heading": "KPIs & Triggers", "content": "Specific metrics to track + 'if X then switch plan to Y' rules." },
+      { "heading": "Plan Scenarios", "content": "How the Defend/Capitalize plan performs under Best/Base/Worst event scenarios." }
+    ]
+  },
+  "depth_modes": {
+    "title": "Depth Modes",
+    "modes": [
+      { "name": "Quick", "calls": "~6", "time": "~2 min", "companies": "Top 15 by market cap", "use_case": "Rapid triage, screening" },
+      { "name": "Standard", "calls": "~14", "time": "~6 min", "companies": "Top 50 (Nifty 50)", "use_case": "Standard analysis, most use cases" },
+      { "name": "Deep", "calls": "~28", "time": "~12 min", "companies": "All 100+ universe", "use_case": "Comprehensive coverage, research" }
+    ]
+  },
+  "key_rotation": {
+    "title": "Key Rotation Explained",
+    "content": "The real product uses multiple free-tier API keys (Google Gemini) with daily call caps. The gateway rotates keys automatically: when one hits rate limit (429), it cools down (60s) and switches to the next key. If all keys exhaust, the run pauses with a 'Resume Later' screen — partial results are saved. In the mock, the Gateway Feed simulates this with scripted events."
+  },
+  "faq": {
+    "title": "FAQ",
+    "questions": [
+      { "q": "Is this real analysis?", "a": "No. This is a frontend-only mock. All data is pre-written sample content. The demo banner on every page reminds you of this." },
+      { "q": "Can I type any event?", "a": "Yes, but the mock maps your text to the closest of 3 sample scenarios (crude spike, US tariffs, RBI rate cut) using keyword matching. Unknown text falls back to a generic scenario with a visible notice." },
+      { "q": "Why are some companies 'uncertain'?", "a": "Low confidence means the engine lacks enough data (e.g., complex conglomerate, governance overhang, missing segments). The real version would flag these for human review." },
+      { "q": "What do the bucket thresholds mean?", "a": "Impact score -5 to +5 maps to 5 buckets: ≤-3.5 Danger, -3.5 to -1.5 Negative, -1.5 to +1.5 Neutral, +1.5 to +3.5 Positive, ≥+3.5 Gain. Score is a weighted composite of channels, resilience, and macro." },
+      { "q": "Can I save reports?", "a": "In the mock, 'Save' writes to localStorage only. The Reports History page shows pre-seeded mock reports plus any you save during the session." },
+      { "q": "How does Mode B differ from Mode A?", "a": "Mode A: event → entire market. Mode B: company + event → company-specific impact across 13 dimensions + a Defend/Capitalize action plan with owners, timelines, and KPIs." },
+      { "q": "What are 'template variants'?", "a": "For companies without a hand-written Mode B scenario, the engine builds a plausible report from the company's exposure tags using a rule table. This ensures every company in the ~50 universe can produce some output." }
+    ]
+  },
+  "glossary": {
+    "title": "Glossary",
+    "terms": [
+      { "term": "Transmission Channel", "def": "A causal pathway through which an event affects companies (e.g., Currency/INR, Input Costs, Consumer Demand)." },
+      { "term": "Impact Score", "def": "Composite score -5 to +5 combining channel strengths, company resilience, macro backdrop, and sector priors." },
+      { "term": "Impact Bucket", "def": "One of 5 categories (High Danger, Moderate Negative, Little/No Effect, Moderate Positive, Massive Gain) based on score thresholds." },
+      { "term": "Resilience Band", "def": "High/Medium/Low based on financial ratios, leverage, liquidity, profitability, and business model stability." },
+      { "term": "Defend / Capitalize", "def": "Strategic stance: Defend = protect value; Capitalize = seize opportunity; Both = mixed." },
+      { "term": "Key Rotation", "def": "Automatic switching between API keys when rate limits hit, to maximize free-tier throughput." },
+      { "term": "Scenario (Best/Base/Worst)", "def": "Alternative event evolutions with narrative, triggers, and bucket-shift predictions." },
+      { "term": "Priced-In Check", "def": "Assessment of whether market price already reflects the event impact." },
+      { "term": "Materiality", "def": "High/Medium/Low — how much a news item could move the stock." },
+      { "term": "EBLR / MCLR", "def": "External/Internal benchmark lending rates; determine how fast rate cuts transmit to borrowers." },
+      { "term": "CASA", "def": "Current Account Savings Account — low-cost deposits; higher CASA = better NIM resilience." },
+      { "term": "NIM", "def": "Net Interest Margin — core profitability metric for banks." },
+      { "term": "RASK / CASK", "def": "Revenue/Cost per Available Seat Kilometre — airline unit economics." },
+      { "term": "ATF", "def": "Aviation Turbine Fuel — jet fuel, ~35-40% of airline costs." },
+      { "term": "O2C", "def": "Oil-to-Chemicals — integrated refining + petrochemicals complex." },
+      { "term": "Windfall Tax", "def": "Special tax on crude producers when prices exceed a threshold (India: $75/bbl)." },
+      { "term": "SPR", "def": "Strategic Petroleum Reserve — government emergency oil stockpiles." },
+      { "term": "China+1", "def": "Supply chain diversification away from China; India beneficiary." },
+      { "term": "PLI", "def": "Production Linked Incentive — Indian govt scheme for manufacturing." },
+      { "term": "FCF", "def": "Free Cash Flow — operating cash flow minus capex." },
+      { "term": "ROE / ROCE", "def": "Return on Equity / Capital Employed — profitability ratios." },
+      { "term": "NNPA / GNPA", "def": "Net / Gross Non-Performing Assets — bank asset quality metrics." },
+      { "term": "PCR", "def": "Provision Coverage Ratio — provisions / GNPA." },
+      { "term": "CET1", "def": "Common Equity Tier 1 — core bank capital ratio." },
+      { "term": "EBITDA", "def": "Earnings Before Interest, Tax, Depreciation, Amortization." },
+      { "term": "RM", "def": "Raw Material." },
+      { "term": "SKU", "def": "Stock Keeping Unit — distinct product variant." },
+      { "term": "VFR", "def": "Visiting Friends & Relatives — airline traffic segment." },
+      { "term": "ASK", "def": "Available Seat Kilometre — airline capacity measure." }
+    ]
+  },
+  "disclaimer": {
+    "title": "Disclaimer",
+    "content": "This is a demonstration prototype (mock UI) for the India Event-Impact Intelligence Tool. All data, scores, reasoning, company assessments, strategic plans, and numbers shown are <strong>fictional/sample content</strong> created solely to illustrate the product concept. They must <strong>not</strong> be used for investment decisions, trading, or any real-world financial purpose. The real product (when built) will have its own methodology, data sources, back-testing, and disclaimers. Past performance of sample scenarios does not predict future results. Consult a SEBI-registered investment advisor before making any financial decisions."
+  }
+}

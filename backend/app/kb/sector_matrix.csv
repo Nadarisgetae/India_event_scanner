@@ -1,0 +1,36 @@
+sector,channel,sensitivity,reasoning
+Oil & Gas Upstream,crude_oil,5,Direct revenue and realisation linkage to global crude benchmarks
+Oil & Gas Upstream,currency_inr,2,USD dollar-denominated realizations benefit from weaker INR
+Oil Marketing Cos,crude_oil,-5,Retail pump prices sticky; sharp crude spikes cause marketing margin compression
+Oil Marketing Cos,input_costs,-5,Crude is 90%+ of refinery throughput input cost
+Paints,crude_oil,-4,Crude oil derivatives and TiO2 form ~50% of raw material cost basket
+Paints,consumer_demand,2,Repainting and housing demand drive volume growth
+Tyres,input_costs,-5,Natural rubber and crude-derived carbon black account for 60% of manufacturing cost
+Tyres,export_competitiveness,2,Export volume (~30%) benefits from competitive rupee
+Aviation,crude_oil,-5,Aviation Turbine Fuel (ATF) accounts for 35-40% of airline operating costs
+Aviation,currency_inr,-3,Aircraft lease rentals and maintenance denominated in USD while fares in INR
+Cement,input_costs,-4,Power and fuel (petcoke, coal, diesel) account for ~30% of cement production costs
+Cement,fiscal_subsidy,3,Government national highway and infrastructure capex spurs domestic consumption
+IT Services,currency_inr,3,90%+ revenues billed in USD/EUR while employee costs largely in INR
+IT Services,export_competitiveness,4,Global enterprise software and digital transformation spend drives growth
+Pharmaceuticals,export_competitiveness,3,Generic drug formulation exports to US and Europe generate 50%+ of revenues
+Pharmaceuticals,regulatory_compliance,-2,US FDA facility inspections and import alerts pose acute compliance risks
+Auto OEMs,input_costs,-3,Steel, aluminum, rubber, and precious metals for catalytic converters dictate margins
+Auto OEMs,interest_rates,-3,75%+ of Indian passenger vehicles and commercial vehicles bought via retail financing
+Banking,interest_rates,2,Rate changes influence Net Interest Margins (NIM) and credit expansion velocity
+Banking,consumer_demand,3,Retail and corporate loan book growth linked to broader economic expansion
+Consumer Staples,input_costs,-3,Agro commodities, crude derivatives, and packaging materials drive gross margins
+Consumer Staples,consumer_demand,4,Rural and urban FMCG volume growth resilient with strong pricing power
+Textiles,export_competitiveness,4,Apparel and garment exports to US/EU benefit from weaker currency
+Textiles,trade_tariffs,-3,Vulnerable to reciprocal tariffs and duty-free access competition from Bangladesh/Vietnam
+Chemicals,input_costs,-4,Petrochemical feedstocks and energy intensive processing affect margin spreads
+Chemicals,export_competitiveness,3,Global supply chain China+1 sourcing diversification tailwind
+Metals & Mining,commodity_prices,4,Global hot-rolled coil steel and LME aluminum prices dictate realisations
+Metals & Mining,currency_inr,2,Import parity pricing in domestic market protects realisations when INR depreciates
+Power,input_costs,-2,Imported thermal coal and gas spot prices influence fuel cost pass-through
+Power,fiscal_subsidy,2,Government grid modernization and renewable energy subsidies provide structural support
+Real Estate,interest_rates,-4,Home loan interest rates strongly drive residential property buyer affordability
+Real Estate,input_costs,-2,Cement and steel inflation inflates construction cost per square foot
+Logistics,crude_oil,-4,High diesel fuel prices directly inflate trucking freight and linehaul transport costs
+Logistics,consumer_demand,3,E-commerce and manufacturing shipment volume drives network operating leverage
+

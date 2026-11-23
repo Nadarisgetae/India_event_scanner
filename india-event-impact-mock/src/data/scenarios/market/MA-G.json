@@ -1,0 +1,90 @@
+{
+  "id": "MA-G",
+  "type": "market",
+  "event": {
+    "headline": "Generic Event (Demo Fallback)",
+    "event_type": "other",
+    "geographies": ["India"],
+    "magnitude": "medium",
+    "duration": "medium",
+    "certainty": "low",
+    "direction_for_india": "mixed",
+    "key_facts": [
+      "This is a demo fallback scenario",
+      "Your input did not match any specific template",
+      "The engine mapped it to this generic balanced scenario"
+    ],
+    "unknowns": [
+      "All specifics unknown — demo mode",
+      "Real analysis would require event details"
+    ]
+  },
+  "channels": [
+    { "channel": "Currency / INR", "active": true, "direction": "neutral", "strength": 2, "reason": "Balanced forces; demo placeholder" },
+    { "channel": "Input Costs", "active": true, "direction": "neutral", "strength": 2, "reason": "Demo placeholder" },
+    { "channel": "Consumer Demand", "active": true, "direction": "neutral", "strength": 2, "reason": "Demo placeholder" }
+  ],
+  "macro": {
+    "gdp": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "medium" },
+    "cpi": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "medium" },
+    "cad": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "medium" },
+    "inr": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "short" },
+    "yield10y": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "medium" },
+    "rbi_stance": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "medium" },
+    "fii_flows": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "short" },
+    "index_tone": { "direction": "neutral", "magnitude_band": "small", "confidence": "low", "horizon": "short" }
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 14.2,
+    "usd_inr": 83.12,
+    "brent": 87.50,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.50,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "sectors": [
+    { "sector": "IT Services", "score": 0.5, "confidence": "low", "reason": "Demo: mild rupee benefit", "key_channels": ["Currency / INR"] },
+    { "sector": "Pharmaceuticals", "score": 0.3, "confidence": "low", "reason": "Demo: defensive", "key_channels": [] },
+    { "sector": "Banks", "score": 0.2, "confidence": "low", "reason": "Demo: mixed", "key_channels": [] },
+    { "sector": "Auto OEMs", "score": -0.3, "confidence": "low", "reason": "Demo: rate sensitive", "key_channels": [] },
+    { "sector": "Consumer Staples", "score": 0.0, "confidence": "low", "reason": "Demo: neutral", "key_channels": [] }
+  ],
+  "companies": [
+    { "symbol": "TCS", "name": "TCS", "sector": "IT Services", "impact_score": 0.8, "bucket": "neutral", "primary_channels": ["Currency / INR"], "reasoning": "Demo: generic rupee beneficiary", "magnitude_estimate": "Demo", "horizon": "medium", "confidence": "low", "mitigants": [], "data_gaps": [] },
+    { "symbol": "HDFCBANK", "name": "HDFC Bank", "sector": "Banks", "impact_score": 0.3, "bucket": "neutral", "primary_channels": [], "reasoning": "Demo: generic", "magnitude_estimate": "Demo", "horizon": "medium", "confidence": "low", "mitigants": [], "data_gaps": [] },
+    { "symbol": "RELIANCE", "name": "Reliance Industries", "sector": "Oil & Gas", "impact_score": 0.0, "bucket": "neutral", "primary_channels": [], "reasoning": "Demo: generic", "magnitude_estimate": "Demo", "horizon": "medium", "confidence": "low", "mitigants": [], "data_gaps": [] }
+  ],
+  "uncertain": [
+    { "symbol": "ALL_OTHERS", "name": "All Other Companies", "sector": "Various", "impact_score": 0, "bucket": "neutral", "primary_channels": [], "reasoning": "Demo: insufficient data for specific scoring", "magnitude_estimate": "Unknown", "horizon": "unknown", "confidence": "low", "mitigants": [], "data_gaps": ["Event specifics required"] }
+  ],
+  "scenarios": [
+    { "name": "best", "narrative": "Demo: positive resolution", "triggers": [], "bucket_shifts": [] },
+    { "name": "base", "narrative": "Demo: status quo", "triggers": [], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "Demo: negative resolution", "triggers": [], "bucket_shifts": [] }
+  ],
+  "timeline": [
+    { "period": "Immediate", "events": ["Demo: no specific timeline"] }
+  ],
+  "watchlist": [
+    { "trigger": "Provide specific event details", "action": "Re-run with concrete event for real analysis" }
+  ],
+  "analogues": [
+    { "event": "N/A — Demo Mode", "date": "N/A", "outcome": "Provide a specific event (crude spike, tariff, rate cut, etc.) for historical analogues" }
+  ],
+  "assumptions": [
+    "This is sample data only — not real analysis",
+    "All numbers are illustrative",
+    "Run with a specific event for meaningful output"
+  ],
+  "appendix": {
+    "models_used": ["demo-mode"],
+    "prompt_versions": ["generic_fallback_v1"],
+    "call_count": 0,
+    "generation_time_seconds": 0,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

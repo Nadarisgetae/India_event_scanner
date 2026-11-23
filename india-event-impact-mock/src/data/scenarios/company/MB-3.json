@@ -1,0 +1,158 @@
+{
+  "id": "MB-3",
+  "type": "company",
+  "company": { "symbol": "INDIGO", "name": "InterGlobe Aviation", "sector": "Aviation", "price": 3850, "impact_score": -2.5, "business_summary": "India's largest airline with ~60% domestic market share; 350+ aircraft fleet (A320 family); low-cost carrier model; no fuel hedging policy; expanding international routes." },
+  "event": {
+    "headline": "Crude oil spikes to $110",
+    "event_type": "commodity_shock",
+    "geographies": ["Global", "India"],
+    "magnitude": "high",
+    "duration": "medium",
+    "certainty": "high",
+    "direction_for_india": "negative",
+    "key_facts": [
+      "Brent crude futures +15% to $110/bbl",
+      "ATF (Aviation Turbine Fuel) price linked to crude; ~38% of IndiGo costs",
+      "IndiGo market share ~60% domestic; fleet 350+ aircraft",
+      "No fuel hedging policy (unlike global peers)"
+    ],
+    "unknowns": [
+      "Fare hike ability in price-sensitive market",
+      "Domestic demand resilience at higher fares",
+      "Competitor capacity response (Air India, Akasa)"
+    ]
+  },
+  "channels": [
+    { "channel": "Input Costs (ATF)", "active": true, "direction": "negative", "strength": 5, "reason": "ATF ~38% of total costs; directly crude-linked; no hedging" },
+    { "channel": "Currency / INR", "active": true, "direction": "negative", "strength": 4, "reason": "Lease rentals USD (~$1.2B/yr); spares imports; revenue INR" },
+    { "channel": "Consumer Demand", "active": true, "direction": "negative", "strength": 3, "reason": "Fare hikes reduce discretionary travel; load factor pressure" },
+    { "channel": "Export Competitiveness", "active": true, "direction": "positive", "strength": 1, "reason": "International routes ~30% revenue; weaker INR helps" }
+  ],
+  "dimensions": [
+    { "dimension": "Revenue", "impact": -1, "explanation": "Load factor down 2-3pp; yield up 8-10%; net RASK flat to slightly up", "evidence": "Historical: fare hikes ~60-70% cost pass-through; volume elasticity -0.8", "magnitude_estimate": "RASK +5-7%; volume -2-3%", "timing": "immediate", "confidence": "medium" },
+    { "dimension": "Pricing", "impact": 2, "explanation": "Fare hikes implemented quickly; market leader pricing power; but ceiling exists", "evidence": "IndiGo leads fare increases; competitors follow", "magnitude_estimate": "Yield +8-10%", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Input Costs", "impact": -4, "explanation": "ATF cost up 25-30%; no hedging; lease rentals up on weaker INR", "evidence": "ATF ₹1.15L/kL → ₹1.45L/kL; lease $1.2B/yr", "magnitude_estimate": "CASK +20-25%", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Margins", "impact": -3, "explanation": "EBITDA margin compression 800-1000bps; CASK-RASK gap widens", "evidence": "EBITDA margin 18% → 8-10%; worst in sector", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Working Capital", "impact": -1, "explanation": "Advance bookings (cash positive); but fuel payables increase", "evidence": "Negative WC cycle normally; fuel credit 15-30 days", "magnitude_estimate": "WC manageable", "timing": "short", "confidence": "medium" },
+    { "dimension": "Debt & Interest", "impact": -2, "explanation": "High lease liabilities (Ind AS 116); USD debt service burden up", "evidence": "Lease liability ₹25000+ cr; interest coverage 2.5x", "magnitude_estimate": "Interest cost +15-20%", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Forex", "impact": -3, "explanation": "Net USD payables (leases, spares, intl airport charges); no natural hedge", "evidence": "Lease rentals $1.2B/yr; spares $200M; revenue 70% INR", "magnitude_estimate": "₹800-1000 cr forex loss/quarter", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Supply Chain", "impact": -1, "explanation": "Spares lead time up; engine shop visits costly; Airbus/Pratt delivery delays", "evidence": "Fleet 350+; NEO engine issues persist", "magnitude_estimate": "Maintenance +10-15%", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Customers / Demand", "impact": -2, "explanation": "Price-sensitive leisure travel hit; corporate resilient; VFR stable", "evidence": "Leisure 60% of traffic; corporate 25%", "magnitude_estimate": "Load factor 88%→85-86%", "timing": "short", "confidence": "medium" },
+    { "dimension": "Regulatory", "impact": 0, "explanation": "UDAN, slot rules stable; no policy change", "evidence": "Regulatory environment stable", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Reputation", "impact": 0, "explanation": "Operational excellence maintained; on-time performance leader", "evidence": "OTP 85%+; market share stable", "magnitude_estimate": "Neutral", "timing": "medium", "confidence": "high" },
+    { "dimension": "Capex", "impact": -1, "explanation": "Fleet expansion continues (500+ on order); but delivery timing uncertain", "evidence": "Airbus A321neo order book; Capex ~$2B/yr", "magnitude_estimate": "Slight delay risk", "timing": "long", "confidence": "medium" },
+    { "dimension": "Governance", "impact": 0, "explanation": "Promoter (Gangwal) vs management governance settled; board stable", "evidence": "Shareholder agreement in place", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" }
+  ],
+  "resilience": {
+    "score": 45,
+    "band": "medium",
+    "strengths": ["Market leader (60% share)", "Cost discipline (lowest CASK ex-fuel)", "Strong brand", "Advance booking cash flow", "Young fleet (fuel efficient)"],
+    "weaknesses": ["No fuel hedging", "High USD lease exposure", "Thin margins at high crude", "Single aircraft type risk (A320 family)"],
+    "ratios": { "Debt/Equity": 2.8, "Current Ratio": 0.6, "Interest Coverage": 2.5, "FCF Yield": "2.1%", "ROE": "18%", "ROCE": "12%" }
+  },
+  "market_view": {
+    "technicals": [
+      { "period": "1D", "chart_data": [], "bias": "bearish", "key_levels": { "support": 3700, "resistance": 3950 } },
+      { "period": "1W", "chart_data": [], "bias": "bearish", "key_levels": { "support": 3500, "resistance": 4100 } },
+      { "period": "1M", "chart_data": [], "bias": "neutral", "key_levels": { "support": 3300, "resistance": 4300 } }
+    ],
+    "priced_in_note": "Market pricing $95-100 crude; $110 not fully priced; further 10-15% downside if sustained",
+    "news_sentiment": [
+      { "headline": "IndiGo Q2 FY27: Loss widens on fuel cost; revenue up 15%", "source": "ET", "date": "2026-10-20", "sentiment": "negative", "materiality": "high" },
+      { "headline": "ATF price hike 12% in Oct; airlines demand excise cut", "source": "BS", "date": "2026-10-21", "sentiment": "negative", "materiality": "high" },
+      { "headline": "IndiGo adds 30 aircraft in FY27; fleet to 380", "source": "CNBC", "date": "2026-10-19", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Air India-Vistara merger: Competition intensifies", "source": "Mint", "date": "2026-10-18", "sentiment": "negative", "materiality": "medium" },
+      { "headline": "Akasa Air orders 150 Boeing 737 MAX", "source": "ET", "date": "2026-10-17", "sentiment": "negative", "materiality": "low" },
+      { "headline": "IndiGo wet-leases 10 A320s for winter schedule", "source": "BS", "date": "2026-10-16", "sentiment": "neutral", "materiality": "low" },
+      { "headline": "Domestic air traffic grows 8% YoY in Sep", "source": "DGCA", "date": "2026-10-15", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Pratt & Whitney engine issues: IndiGo grounds 40 aircraft", "source": "Reuters", "date": "2026-10-14", "sentiment": "negative", "materiality": "high" },
+      { "headline": "Crude $110: Aviation sector stares at losses", "source": "Bloomberg", "date": "2026-10-13", "sentiment": "negative", "materiality": "high" },
+      { "headline": "IndiGo CFO: No fuel hedging; focusing on cost control", "source": "CNBC", "date": "2026-10-12", "sentiment": "neutral", "materiality": "medium" }
+    ]
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 14.2,
+    "usd_inr": 83.12,
+    "brent": 110.00,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.50,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "peers": [
+    { "symbol": "AIRINDIA", "name": "Air India", "impact_score": -3.5, "bucket": "negative", "better_than_subject": false },
+    { "symbol": "AKASA", "name": "Akasa Air", "impact_score": -4.0, "bucket": "danger", "better_than_subject": false },
+    { "symbol": "SPICEJET", "name": "SpiceJet", "impact_score": -4.8, "bucket": "danger", "better_than_subject": false }
+  ],
+  "strategy": {
+    "stance": "defend",
+    "immediate_0_30d": [
+      { "action": "Implement immediate fare hike (8-10% domestic, 5% intl)", "lever": "Pricing", "why": "Close CASK-RASK gap; market leader sets tone", "owner": "Revenue Management Head", "cost_effort": "low", "expected_effect": "RASK +8-10%", "risk": "Load factor drops >3pp" },
+      { "action": "Negotiate lease rental deferrals/restructuring with lessors", "lever": "Cost Control", "why": "USD lease burden unsustainable at 83+ INR; lessors prefer restructuring over default", "owner": "CFO / Fleet Planning", "cost_effort": "high", "expected_effect": "Cash flow relief $50-100M/qtr", "risk": "Lessors resist; rating impact" },
+      { "action": "Accelerate fuel-efficient NEO induction; ground older CEOs", "lever": "Fleet Efficiency", "why": "NEO 15-20% fuel burn improvement vs CEO", "owner": "Engineering Head", "cost_effort": "medium", "expected_effect": "Fuel burn -3-4% fleet-wide", "risk": "PW engine availability" }
+    ],
+    "short_term_1_6m": [
+      { "action": "Launch fuel hedging program (30-40% of volume)", "lever": "Risk Management", "why": "Structural change needed; peers hedge 40-60%", "owner": "Treasury / CFO", "cost_effort": "high", "expected_effect": "Reduce fuel cost volatility", "risk": "Hedge accounting; counterparty risk" },
+      { "action": "Optimize network: cut loss-making routes; upgauge high-density", "lever": "Network Rationalization", "why": "Focus capacity where load factors >85%; improve yield", "owner": "Network Planning", "cost_effort": "low", "expected_effect": "RASK +2-3%", "risk": "Market share ceded on thin routes" },
+      { "action": "Ancillary revenue push (seat, baggage, meals, insurance)", "lever": "Revenue Diversification", "why": "Ancillary 15%→20% of revenue; less fuel correlated", "owner": "Ancillary Head", "cost_effort": "low", "expected_effect": "Ancillary +₹500 cr/yr", "risk": "Customer pushback; regulatory" }
+    ],
+    "long_term_6_24m": [
+      { "action": "Negotiate next aircraft order with fuel-efficient MAX/NEO mix", "lever": "Fleet Renewal", "why": "Lock in pricing; secure delivery slots; 20%+ efficiency gain", "owner": "CEO / Fleet Planning", "cost_effort": "high", "expected_effect": "Long-term CASK advantage", "risk": "Capital commitment $10B+" },
+      { "action": "Explore sale-leaseback for owned aircraft to reduce USD debt", "lever": "Balance Sheet", "why": "Reduce leverage; free up cash; but increases lease burden", "owner": "CFO", "cost_effort": "medium", "expected_effect": "Debt/equity improvement", "risk": "Higher lease rentals" },
+      { "action": "Build international hub strategy (Delhi/Mumbai) for 6th freedom", "lever": "Strategic Positioning", "why": "Capture connecting traffic; higher yield; reduce domestic dependence", "owner": "Network Strategy", "cost_effort": "high", "expected_effect": "Intl revenue 30%→40%", "risk": "Bilateral rights; competition" }
+    ],
+    "kpis_to_track": [
+      { "kpi": "RASK (Revenue per ASK)", "target": ">₹4.50", "frequency": "Monthly" },
+      { "kpi": "CASK ex-fuel", "target": "<₹2.80", "frequency": "Monthly" },
+      { "kpi": "Load Factor", "target": ">85%", "frequency": "Monthly" },
+      { "kpi": "EBITDA Margin", "target": ">12%", "frequency": "Quarterly" },
+      { "kpi": "Net Debt/EBITDA", "target": "<4.0x", "frequency": "Quarterly" },
+      { "kpi": "On-Time Performance", "target": ">85%", "frequency": "Monthly" }
+    ],
+    "trigger_points": [
+      { "condition": "Brent >$120 sustained 30 days", "then_switch_to": "Crisis defend: deep capacity cuts; emergency funding; lessor haircuts" },
+      { "condition": "Load factor <82% for 2 months", "then_switch_to": "Aggressive pricing: stimulate demand; accept lower yield" },
+      { "condition": "INR <80/USD sustained", "then_switch_to": "Reduce USD exposure; accelerate hedging; review lease contracts" },
+      { "condition": "Competitor exits / consolidates", "then_switch_to": "Capitalize: absorb slots; raise fares; expand share" }
+    ],
+    "plan_risks": [
+      "Crude $130+ — margin collapse; cash burn unsustainable",
+      "PW engine issues worsen — 50+ aircraft grounded",
+      "Air India merger executes well — formidable competitor",
+      "Demand destruction at high fares — structural shift to rail/video"
+    ],
+    "assumptions": [
+      "No fuel hedging policy change in immediate term",
+      "Domestic demand grows 8-10% YoY",
+      "INR 82-85 range",
+      "No major regulatory change",
+      "PW engine issues stabilize"
+    ]
+  },
+  "scenarios": [
+    { "name": "best", "narrative": "Brent $85 by Q1; ATF normalizes; INR 81; demand strong; margin 18%+", "triggers": ["OPEC+ reversal", "Demand destruction", "Strong rupee"], "bucket_shifts": [ { "symbol": "INDIGO", "from": "danger", "to": "negative" } ] },
+    { "name": "base", "narrative": "Brent $100-110; ATF elevated; INR 83-84; margin 8-10%; cash burn manageable", "triggers": ["Current trajectory"], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "Brent $130+; INR 87+; demand destruction; cash crisis; equity raise risk", "triggers": ["Geopolitical escalation", "Global recession"], "bucket_shifts": [ { "symbol": "INDIGO", "from": "danger", "to": "danger" } ] }
+  ],
+  "analogues": [
+    { "event": "2008 Oil $147", "date": "Jul 2008", "outcome": "Indian aviation losses ₹10000+ cr; Kingfisher collapsed; Jet Airways near death; IndiGo survived (low leverage then)" },
+    { "event": "2011-14 High Oil", "date": "2011-2014", "outcome": "Sector losses; Kingfisher shutdown; IndiGo IPO 2015 at trough; turned profitable" },
+    { "event": "2022 Post-Ukraine", "date": "Mar-Jun 2022", "outcome": "ATF ₹140k/kL; IndiGo loss ₹1600 cr/qtr; fare hikes 20-30%; recovered in 3 quarters" }
+  ],
+  "limitations": [
+    "No fuel hedging — unique among global peers",
+    "Lease portfolio details (lessor, rates, maturity) not fully public",
+    "PW engine grounding risk uncertain",
+    "Air India merger integration timeline unclear"
+  ],
+  "appendix": {
+    "models_used": ["gemini-1.5-flash", "gemini-1.5-pro"],
+    "prompt_versions": ["company_event_understanding_v2", "dimension_scoring_v3", "resilience_v2", "market_view_v2", "peer_v2", "plan_gen_v3", "scenario_v2"],
+    "call_count": 18,
+    "generation_time_seconds": 425,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

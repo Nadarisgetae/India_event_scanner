@@ -1,0 +1,158 @@
+{
+  "id": "MB-2",
+  "type": "company",
+  "company": { "symbol": "TCS", "name": "TCS", "sector": "IT Services", "price": 4120, "impact_score": 0.5, "business_summary": "India's largest IT services company; $29B revenue; 600k+ employees; 52% revenue from North America; 90%+ USD revenue; leading in BFSI, retail, manufacturing verticals." },
+  "event": {
+    "headline": "US imposes higher tariffs on Indian goods + Rupee depreciates to 85/USD",
+    "event_type": "trade_action",
+    "geographies": ["US", "India"],
+    "magnitude": "high",
+    "duration": "long",
+    "certainty": "high",
+    "direction_for_india": "negative",
+    "key_facts": [
+      "US 25% tariff on textiles, auto parts, gems & jewellery ($12B exports)",
+      "Rupee depreciates from 83 to 85/USD on CAD widening",
+      "IT services NOT directly tariffed but sentiment hit",
+      "TCS US revenue ~52%; North America largest geography"
+    ],
+    "unknowns": [
+      "Tariff expansion to services (visa fees, digital tax)",
+      "Client budget cuts in recession scenario",
+      "Pricing power in renegotiations"
+    ]
+  },
+  "channels": [
+    { "channel": "Currency / INR", "active": true, "direction": "positive", "strength": 4, "reason": "USD revenue 52%; INR cost base; 2 rupee depreciation = ~2.5% margin tailwind" },
+    { "channel": "Global Demand", "active": true, "direction": "negative", "strength": 3, "reason": "US manufacturing clients hit by tariffs; discretionary IT spend at risk" },
+    { "channel": "Trade Policy / Tariffs", "active": true, "direction": "negative", "strength": 2, "reason": "Indirect: client industries (auto, manufacturing) face tariffs" },
+    { "channel": "Regulatory", "active": true, "direction": "negative", "strength": 2, "reason": "H1B visa scrutiny; possible digital services tax" }
+  ],
+  "dimensions": [
+    { "dimension": "Revenue", "impact": 0, "explanation": "Volume stable; rupee benefit offsets demand weakness; pricing pressure in renewals", "evidence": "Historical: 2008, 2020 revenue resilient; rupee beta ~0.6", "magnitude_estimate": "Flat to +2% USD revenue", "timing": "short", "confidence": "medium" },
+    { "dimension": "Pricing", "impact": -1, "explanation": "Clients push for discounts; vendor consolidation; but TCS premium positioning holds", "evidence": "TCS wins large deals at premium; renewal rates 95%+", "magnitude_estimate": "-1-2% pricing pressure", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Input Costs", "impact": 1, "explanation": "Rupee depreciation reduces INR cost base (staff, facilities) vs USD revenue", "evidence": "~70% costs INR; 30% onsite USD", "magnitude_estimate": "INR cost base -2.5%", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Margins", "impact": 1, "explanation": "Net margin tailwind from rupee; offset by wage hikes, subcon costs", "evidence": "EBIT margin 25-26%; rupee sensitivity ~30bps per rupee", "magnitude_estimate": "+30-50bps EBIT margin", "timing": "short", "confidence": "high" },
+    { "dimension": "Working Capital", "impact": 0, "explanation": "DSO stable; cash generation strong; no working capital stress", "evidence": "FCF conversion 90%+; DSO ~65 days", "magnitude_estimate": "Neutral", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Debt & Interest", "impact": 0, "explanation": "Near zero debt; large cash pile (~₹15000 cr); interest income beneficiary of rates", "evidence": "Net cash; no refinancing risk", "magnitude_estimate": "Neutral", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Forex", "impact": 3, "explanation": "Major beneficiary: 52% revenue USD, 70% costs INR; natural hedge", "evidence": "Hedging policy: 60-70% of net exposure hedged 12M forward", "magnitude_estimate": "₹800-1000 cr forex gain per quarter", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Supply Chain", "impact": 0, "explanation": "No physical supply chain; talent supply adequate", "evidence": "Bench strength 15-20%; hiring normalized", "magnitude_estimate": "Neutral", "timing": "short", "confidence": "high" },
+    { "dimension": "Customers / Demand", "impact": -1, "explanation": "BFSI, retail, manufacturing clients cautious; but cloud/digital transformation continues", "evidence": "Book-to-bill >1; deal pipeline strong", "magnitude_estimate": "Demand growth 5-7% vs 8-10% prior", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Regulatory", "impact": -1, "explanation": "H1B denial risk; state-level data localization; but large US presence (60k+ employees)", "evidence": "Local hiring 60%+ in US; delivery centers", "magnitude_estimate": "Manageable", "timing": "long", "confidence": "medium" },
+    { "dimension": "Reputation", "impact": 1, "explanation": "Vendor consolidation favors Tier-1; TCS gains share from smaller players", "evidence": "Market share gains in 2008, 2020 crises", "magnitude_estimate": "Share gain 50-100bps", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Capex", "impact": 0, "explanation": "Asset-light; capex ~2% revenue; digital facilities, labs", "evidence": "Consistent capex discipline", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Governance", "impact": 0, "explanation": "Tata Group governance; strong board; ESG leader; capital allocation disciplined", "evidence": "Buyback/dividend payout 80-100% FCF", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" }
+  ],
+  "resilience": {
+    "score": 92,
+    "band": "high",
+    "strengths": ["Net cash ₹15000+ cr", "FCF yield 5%+", "USD revenue natural hedge", "Tier-1 vendor status", "Low client concentration", "Strong governance"],
+    "weaknesses": ["Wage inflation pressure", "Onsite cost creep", "Visa policy dependency"],
+    "ratios": { "Debt/Equity": 0.0, "Current Ratio": 3.2, "Interest Coverage": 999, "FCF Yield": "5.2%", "ROE": "48%", "ROCE": "55%" }
+  },
+  "market_view": {
+    "technicals": [
+      { "period": "1D", "chart_data": [], "bias": "neutral", "key_levels": { "support": 4050, "resistance": 4200 } },
+      { "period": "1W", "chart_data": [], "bias": "bullish", "key_levels": { "support": 3950, "resistance": 4300 } },
+      { "period": "1M", "chart_data": [], "bias": "bullish", "key_levels": { "support": 3800, "resistance": 4400 } }
+    ],
+    "priced_in_note": "Rupee depreciation partially priced; tariff risk not fully priced; valuation premium justified",
+    "news_sentiment": [
+      { "headline": "TCS Q2 FY27: Revenue beats; margin expands 40bps on rupee", "source": "ET", "date": "2026-10-20", "sentiment": "positive", "materiality": "high" },
+      { "headline": "US tariffs: IT services spared but client caution rises", "source": "BS", "date": "2026-10-21", "sentiment": "negative", "materiality": "medium" },
+      { "headline": "TCS wins $1.2B BFSI deal; largest in 2 years", "source": "CNBC", "date": "2026-10-19", "sentiment": "positive", "materiality": "high" },
+      { "headline": "Rupee at 85: IT sector biggest beneficiary", "source": "Mint", "date": "2026-10-18", "sentiment": "positive", "materiality": "high" },
+      { "headline": "H1B denial rates rise for Indian IT cos", "source": "Reuters", "date": "2026-10-17", "sentiment": "negative", "materiality": "medium" },
+      { "headline": "TCS declares 2nd buyback in 3 years; ₹17000 cr", "source": "ET", "date": "2026-10-16", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "US manufacturing PMI contracts; IT demand signal", "source": "Bloomberg", "date": "2026-10-15", "sentiment": "negative", "materiality": "medium" },
+      { "headline": "TCS expands Ohio delivery center; 2000 jobs", "source": "Local", "date": "2026-10-14", "sentiment": "positive", "materiality": "low" },
+      { "headline": "GenAI adoption: TCS launches 50+ client pilots", "source": "BS", "date": "2026-10-13", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Analyst: TCS best positioned for vendor consolidation", "source": "Morgan Stanley", "date": "2026-10-12", "sentiment": "positive", "materiality": "medium" }
+    ]
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 16.5,
+    "usd_inr": 85.00,
+    "brent": 87.50,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.50,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "peers": [
+    { "symbol": "INFY", "name": "Infosys", "impact_score": 0.5, "bucket": "positive", "better_than_subject": false },
+    { "symbol": "WIPRO", "name": "Wipro", "impact_score": -0.5, "bucket": "neutral", "better_than_subject": false },
+    { "symbol": "HCLTECH", "name": "HCLTech", "impact_score": 1.0, "bucket": "positive", "better_than_subject": false },
+    { "symbol": "TECHM", "name": "Tech Mahindra", "impact_score": -1.0, "bucket": "neutral", "better_than_subject": false }
+  ],
+  "strategy": {
+    "stance": "capitalize",
+    "immediate_0_30d": [
+      { "action": "Lock forward covers for 70% FY27 net USD exposure at 84-85", "lever": "Forex Hedging", "why": "Rupee at 85 near peak; forward premium attractive", "owner": "Treasury Head", "cost_effort": "low", "expected_effect": "Lock ₹3000+ cr forex gain", "risk": "Rupee appreciates <82" },
+      { "action": "Accelerate vendor consolidation pitches to top 20 accounts", "lever": "Market Share", "why": "Clients reducing vendor count; TCS is natural consolidator", "owner": "Sales Head - Americas", "cost_effort": "low", "expected_effect": "2-3 large deal wins", "risk": "Pricing pressure in consolidation" },
+      { "action": "Freeze discretionary hiring; optimize bench utilization", "lever": "Cost Discipline", "why": "Demand uncertainty; protect margins", "owner": "HR Head", "cost_effort": "low", "expected_effect": "Subcon cost -5%", "risk": "Delivery risk if demand rebounds" }
+    ],
+    "short_term_1_6m": [
+      { "action": "Expand GenAI service line (50 pilots → 200 production)", "lever": "Revenue Growth", "why": "Differentiation; premium pricing; sticky engagements", "owner": "AI.Cloud Head", "cost_effort": "high", "expected_effect": "New revenue $200M+", "risk": "GPU costs; talent" },
+      { "action": "Acquire niche US cloud/consulting boutique ($200-500M)", "lever": "Capability Building", "why": "Fill gaps; onshore talent; client relationships", "owner": "M&A Head", "cost_effort": "high", "expected_effect": "Revenue +$100M; margin accretive", "risk": "Integration; culture" },
+      { "action": "Renegotiate top 10 renewals with 2-3% price increase + scope expansion", "lever": "Pricing", "why": "Inflation + rupee = pricing power; clients accept value", "owner": "Account Leaders", "cost_effort": "low", "expected_effect": "Revenue +$150M", "risk": "Client pushback" }
+    ],
+    "long_term_6_24m": [
+      { "action": "Build industry-specific platforms (BFSI, retail, mfg) on TCS BaNCS", "lever": "Productization", "why": "Recurring revenue; higher margins; switching costs", "owner": "Platform Head", "cost_effort": "high", "expected_effect": "Platform revenue 10% of total", "risk": "R&D investment; sales motion change" },
+      { "action": "Double down on Europe/UK (tariff-free, growth markets)", "lever": "Geographic Diversification", "why": "Reduce US concentration (52% → 45%); EUR revenue hedge", "owner": "Europe Head", "cost_effort": "medium", "expected_effect": "Europe revenue +20%", "risk": "Growth slower than US" },
+      { "action": "Launch 'TCS Green IT' sustainability-as-a-service", "lever": "ESG Differentiation", "why": "Client ESG mandates; premium for green cloud", "owner": "Sustainability Head", "cost_effort": "medium", "expected_effect": "New service line", "risk": "Measurement standards" }
+    ],
+    "kpis_to_track": [
+      { "kpi": "EBIT Margin", "target": ">26%", "frequency": "Quarterly" },
+      { "kpi": "USD Revenue Growth", "target": ">8% YoY", "frequency": "Quarterly" },
+      { "kpi": "Large Deal TCV", "target": ">$8B/yr", "frequency": "Quarterly" },
+      { "kpi": "Attrition (LTM)", "target": "<12%", "frequency": "Monthly" },
+      { "kpi": "FCF Conversion", "target": ">90%", "frequency": "Quarterly" },
+      { "kpi": "Onsite %", "target": "<30%", "frequency": "Quarterly" }
+    ],
+    "trigger_points": [
+      { "condition": "US recession confirmed (2Q negative GDP)", "then_switch_to": "Defend: freeze hiring; protect margins; delay acquisitions" },
+      { "condition": "Rupee appreciates <82/USD sustained", "then_switch_to": "Reduce hedging; accept margin compression; invest in growth" },
+      { "condition": "Digital services tax enacted in US", "then_switch_to": "Restructure delivery; more onshore; pricing pass-through" }
+    ],
+    "plan_risks": [
+      "US recession deeper than expected — discretionary IT spend cut 15%+",
+      "Digital services tax / H1B restrictions — structural cost increase",
+      "GenAI cannibalizes traditional services — pricing deflation",
+      "Key large deal losses — revenue visibility hit"
+    ],
+    "assumptions": [
+      "No direct tariff on IT services",
+      "Rupee stabilizes 84-86 range",
+      "US GDP growth 1.5-2.0%",
+      "Wage hikes 6-8% in India",
+      "Client budgets flat to +3%"
+    ]
+  },
+  "scenarios": [
+    { "name": "best", "narrative": "No service tariffs; rupee 86; US soft landing; GenAI revenue accelerates", "triggers": ["Fed cuts", "US soft landing", "GenAI monetization"], "bucket_shifts": [] },
+    { "name": "base", "narrative": "Tariffs hold on goods; rupee 85; IT demand 5-7%; margins stable", "triggers": ["Current trajectory"], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "US recession; service tariffs; rupee 82; hiring freeze; margin compression", "triggers": ["US hard landing", "Protectionism escalation"], "bucket_shifts": [ { "symbol": "TCS", "from": "positive", "to": "neutral" } ] }
+  ],
+  "analogues": [
+    { "event": "2008 Financial Crisis", "date": "2008-09", "outcome": "TCS -20% then +100% in 24M; rupee 40→50→46; vendor consolidation winner" },
+    { "event": "2020 COVID", "date": "Mar-Jun 2020", "outcome": "TCS -15% then +80% in 12M; remote delivery proven; cloud acceleration" },
+    { "event": "2013 Taper Tantrum", "date": "May-Sep 2013", "outcome": "Rupee 54→68; TCS +25% in 6M; forex tailwind powerful" }
+  ],
+  "limitations": [
+    "Hedging details not fully public",
+    "Client budget visibility limited",
+    "GenAI revenue trajectory uncertain",
+    "Geopolitical policy risk (visa, tax) hard to quantify"
+  ],
+  "appendix": {
+    "models_used": ["gemini-1.5-flash", "gemini-1.5-pro"],
+    "prompt_versions": ["company_event_understanding_v2", "dimension_scoring_v3", "resilience_v2", "market_view_v2", "peer_v2", "plan_gen_v3", "scenario_v2"],
+    "call_count": 18,
+    "generation_time_seconds": 398,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

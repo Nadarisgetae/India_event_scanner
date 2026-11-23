@@ -1,0 +1,20 @@
+{
+  "symbol": "TATAMOTORS",
+  "name": "Tata Motors",
+  "sector": "Automobile",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-10",
+  "business_summary": "Global automotive manufacturer with domestic commercial vehicle dominance, market-leading Indian passenger EV portfolio, and luxury automaker Jaguar Land Rover.",
+  "revenue_mix": { "Jaguar Land Rover": 69, "Tata Commercial Vehicles": 17, "Tata Passenger & EV": 12, "Other Operations": 2 },
+  "exposure_tags": ["jlr_exposure", "ev_leader_domestic", "commodity_sensitive", "currency_sensitive"],
+  "resilience": {
+    "score": 72,
+    "band": "medium",
+    "strengths": ["JLR order book rich in high-margin Range Rover models", "Dominant 70%+ share of Indian passenger EV market", "Net auto debt approaching zero", "Significant turnaround in operating margins"],
+    "weaknesses": ["Sensitivity to global luxury demand & China sales", "Capital intensity of EV & software transitions", "Steel & battery raw material cost fluctuations"],
+    "ratios": { "Debt/Equity": 0.45, "Current Ratio": 1.1, "Interest Coverage": 6.8, "FCF Yield": "5.6%", "ROE": "22.5%", "ROCE": "16.8%" }
+  },
+  "ratios": { "Debt/Equity": 0.45, "Current Ratio": 1.1, "Interest Coverage": 6.8, "FCF Yield": "5.6%", "ROE": "22.5%", "ROCE": "16.8%" },
+  "sources": ["Annual Report FY24", "JLR Investor Day Presentation", "Concall Transcripts"]
+}

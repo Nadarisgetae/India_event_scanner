@@ -1,0 +1,159 @@
+{
+  "id": "MB-1",
+  "type": "company",
+  "company": { "symbol": "ASIANPAINT", "name": "Asian Paints", "sector": "Consumer Durables", "price": 3250, "impact_score": 1.8, "business_summary": "India's largest paint company with ~50% market share in decorative paints. Strong distribution network (70k+ dealers), premium brand portfolio, and increasing industrial coatings presence." },
+  "event": {
+    "headline": "Crude oil spikes to $110",
+    "event_type": "commodity_shock",
+    "geographies": ["Global", "India"],
+    "magnitude": "high",
+    "duration": "medium",
+    "certainty": "high",
+    "direction_for_india": "negative",
+    "key_facts": [
+      "Brent crude futures +15% in 5 sessions to $110/bbl",
+      "OPEC+ announced 2M bpd supply cut extension",
+      "India imports ~85% of crude oil"
+    ],
+    "unknowns": [
+      "Duration of OPEC+ cuts",
+      "Strategic petroleum reserve releases"
+    ]
+  },
+  "channels": [
+    { "channel": "Input Costs (Raw Materials)", "active": true, "direction": "negative", "strength": 5, "reason": "Crude derivatives (phthalic anhydride, pentaerythritol, TiO2) ~50% of RM cost" },
+    { "channel": "Pricing Power", "active": true, "direction": "positive", "strength": 4, "reason": "Market leader (~50% share); brand loyalty allows 8-10% annual price hikes" },
+    { "channel": "Currency / INR", "active": true, "direction": "negative", "strength": 3, "reason": "TiO2, monomers imported; weaker INR adds 2-3% to RM basket" },
+    { "channel": "Consumer Demand", "active": true, "direction": "negative", "strength": 2, "reason": "Discretionary spend; housing slowdown risk; but repaint cycle resilient" },
+    { "channel": "Export Competitiveness", "active": true, "direction": "positive", "strength": 1, "reason": "Minor exports; weaker INR helps but volume small" }
+  ],
+  "dimensions": [
+    { "dimension": "Revenue", "impact": -1, "explanation": "Volume flat to slightly down (-2-3%); price hikes offset; premium mix shift continues", "evidence": "Historical: 2008, 2011-14 volume resilient; price hikes 8-10%/yr", "magnitude_estimate": "-2% to +1%", "timing": "short", "confidence": "medium" },
+    { "dimension": "Pricing", "impact": 2, "explanation": "Strong pricing power; 3-4% hike already announced; further 4-5% likely in H1 FY27", "evidence": "Market share 50%+; dealer network 70k+; brand premium", "magnitude_estimate": "+7-9% price realization", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Input Costs", "impact": -3, "explanation": "Crude derivatives basket up 25-30%; TiO2 up 15%; 60% hedged for 6 months", "evidence": "RM cost ~55% of revenue; hedging covers ~60% of volume", "magnitude_estimate": "+18-22% RM cost (unhedged)", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Margins", "impact": -2, "explanation": "EBITDA margin compression 200-300bps; pricing lag 1-2 quarters", "evidence": "Historical margin beta to crude ~0.3; current margin ~24%", "magnitude_estimate": "EBITDA margin 21-22% vs 24%", "timing": "short", "confidence": "high" },
+    { "dimension": "Working Capital", "impact": -1, "explanation": "Inventory build for price hikes; debtor days stable; creditor pressure", "evidence": "WC cycle ~45 days; RM inventory up", "magnitude_estimate": "WC days +5-7", "timing": "short", "confidence": "medium" },
+    { "dimension": "Debt & Interest", "impact": 0, "explanation": "Near zero debt; interest income on cash pile (~₹3000 cr)", "evidence": "Net cash position; no refinancing risk", "magnitude_estimate": "Neutral", "timing": "immediate", "confidence": "high" },
+    { "dimension": "Forex", "impact": -1, "explanation": "Net importer of TiO2, monomers; ~15% of RM USD denominated", "evidence": "Import intensity moderate; hedging partial", "magnitude_estimate": "₹100-150 cr forex loss", "timing": "immediate", "confidence": "medium" },
+    { "dimension": "Supply Chain", "impact": -1, "explanation": "Logistics cost up 8-10%; dealer margins pressed; no disruption", "evidence": "Own manufacturing; 7 plants; distribution resilient", "magnitude_estimate": "Logistics +8-10%", "timing": "short", "confidence": "medium" },
+    { "dimension": "Customers / Demand", "impact": -1, "explanation": "Repaint cycle (4-5 yr) resilient; new housing slowdown risk; rural stable", "evidence": "70% revenue from repaint; rural 30% of sales", "magnitude_estimate": "Volume -2-3%", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Regulatory", "impact": 0, "explanation": "No direct regulatory impact; GST stable at 18%", "evidence": "Policy stable", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Reputation", "impact": 1, "explanation": "Market share gains from weaker unorganized players (30% market)", "evidence": "Unorganized players lack hedging/pricing power", "magnitude_estimate": "Share +1-2%", "timing": "medium", "confidence": "medium" },
+    { "dimension": "Capex", "impact": 0, "explanation": "Maintenance capex ~₹500 cr/yr; capacity expansion on track", "evidence": "New plant at Tamil Nadu progressing", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" },
+    { "dimension": "Governance", "impact": 0, "explanation": "Promoter-led; strong board; ESG focus; no controversy", "evidence": "Consistent dividend payout 50%+", "magnitude_estimate": "Neutral", "timing": "long", "confidence": "high" }
+  ],
+  "resilience": {
+    "score": 78,
+    "band": "high",
+    "strengths": ["Market leadership (50% share)", "Pricing power (8-10% annual hikes)", "Near zero net debt", "Strong FCF generation (₹2500+ cr/yr)", "60% RM hedged for 6 months", "Diversified manufacturing (7 plants)"],
+    "weaknesses": ["Raw material concentration (crude derivatives)", "Domestic revenue concentration (95%+)", "Unorganized sector competition (30% market)"],
+    "ratios": { "Debt/Equity": 0.02, "Current Ratio": 1.8, "Interest Coverage": 999, "FCF Yield": "4.2%", "ROE": "28%", "ROCE": "32%" }
+  },
+  "market_view": {
+    "technicals": [
+      { "period": "1D", "chart_data": [], "bias": "neutral", "key_levels": { "support": 3180, "resistance": 3320 } },
+      { "period": "1W", "chart_data": [], "bias": "bearish", "key_levels": { "support": 3100, "resistance": 3350 } },
+      { "period": "1M", "chart_data": [], "bias": "neutral", "key_levels": { "support": 3000, "resistance": 3500 } }
+    ],
+    "priced_in_note": "Market has priced ~60% of crude impact; further downside if Brent sustains >$115",
+    "news_sentiment": [
+      { "headline": "Asian Paints Q2 FY27: PAT beats estimates; volume growth 8%", "source": "ET", "date": "2026-10-20", "sentiment": "positive", "materiality": "high" },
+      { "headline": "Crude at $110: Paint cos stare at margin compression", "source": "BS", "date": "2026-10-21", "sentiment": "negative", "materiality": "high" },
+      { "headline": "Asian Paints announces 4% price hike from Nov", "source": "CNBC", "date": "2026-10-19", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Monsoon below normal: Rural demand concern for paints", "source": "Mint", "date": "2026-10-18", "sentiment": "negative", "materiality": "medium" },
+      { "headline": "Berger Paints Q2: Margin misses; Asian Paints outperforms", "source": "ET", "date": "2026-10-17", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "TiO2 prices surge 15% on China supply constraints", "source": "Reuters", "date": "2026-10-16", "sentiment": "negative", "materiality": "high" },
+      { "headline": "Asian Paints expands Tamil Nadu plant; capex ₹1200 cr", "source": "BS", "date": "2026-10-15", "sentiment": "positive", "materiality": "low" },
+      { "headline": "Dealer survey: Paint demand steady; price hikes accepted", "source": "Local", "date": "2026-10-14", "sentiment": "positive", "materiality": "medium" },
+      { "headline": "Crude oil outlook: Goldman sees $115 by Q1 2027", "source": "Bloomberg", "date": "2026-10-13", "sentiment": "negative", "materiality": "high" },
+      { "headline": "Asian Paints declares interim dividend ₹4.5/share", "source": "NSE", "date": "2026-10-12", "sentiment": "positive", "materiality": "low" }
+    ]
+  },
+  "macro_backdrop": {
+    "nifty": 24850,
+    "sensex": 81200,
+    "vix": 14.2,
+    "usd_inr": 83.12,
+    "brent": 110.00,
+    "gold": 72400,
+    "us10y": 4.28,
+    "repo_rate": 6.50,
+    "timestamp": "2026-10-22T09:15:00+05:30"
+  },
+  "peers": [
+    { "symbol": "BERGEPAINT", "name": "Berger Paints", "impact_score": -4.0, "bucket": "negative", "better_than_subject": false },
+    { "symbol": "KANSAINER", "name": "Kansai Nerolac", "impact_score": -3.5, "bucket": "negative", "better_than_subject": false },
+    { "symbol": "AKZOINDIA", "name": "Akzo Nobel India", "impact_score": -2.8, "bucket": "negative", "better_than_subject": false },
+    { "symbol": "NIPPONPAINT", "name": "Nippon Paint", "impact_score": -3.0, "bucket": "negative", "better_than_subject": false }
+  ],
+  "strategy": {
+    "stance": "both",
+    "immediate_0_30d": [
+      { "action": "Accelerate price hike implementation (4% Nov + 3% Jan)", "lever": "Pricing Power", "why": "Close RM-cost-to-price gap; 60% hedged gives 6-month window", "owner": "Sales & Marketing Head", "cost_effort": "low", "expected_effect": "Recover 150-200bps margin", "risk": "Volume resistance if hike >10% in 6 months" },
+      { "action": "Lock in TiO2/monomer contracts at current levels for Q1 FY27", "lever": "Input Cost Hedging", "why": "Spot prices rising; forward curves backwardated", "owner": "Procurement Head", "cost_effort": "medium", "expected_effect": "Lock 30% unhedged volume", "risk": "Prices correct if OPEC+ reverses" },
+      { "action": "Push premium/ultra-premium mix (Royale, Apcolite)", "lever": "Product Mix", "why": "Premium margins 2x economy; less price sensitive", "owner": "Category Head", "cost_effort": "low", "expected_effect": "Mix shift +200bps margin", "risk": "Consumer downtrading risk" }
+    ],
+    "short_term_1_6m": [
+      { "action": "Expand water-based/low-VOC portfolio (lower crude intensity)", "lever": "Product Innovation", "why": "Crude derivative intensity 20% lower; regulatory tailwind", "owner": "R&D Head", "cost_effort": "high", "expected_effect": "New revenue stream; RM resilience", "risk": "R&D lead time 12-18 months" },
+      { "action": "Dealer incentive restructuring (volume vs value)", "lever": "Channel Management", "why": "Protect dealer margins; prevent stockouts during price transitions", "owner": "Sales Head", "cost_effort": "low", "expected_effect": "Distribution stability", "risk": "Dealer pushback on margin structure" },
+      { "action": "Accelerate industrial coatings ramp (PPG JV)", "lever": "Revenue Diversification", "why": "Industrial less discretionary; different RM basket", "owner": "Industrial Coatings CEO", "cost_effort": "medium", "expected_effect": "Industrial revenue 25%→30%", "risk": "JV integration execution" }
+    ],
+    "long_term_6_24m": [
+      { "action": "Backward integrate key monomers (phthalic anhydride JV)", "lever": "Supply Chain Control", "why": "Structural RM cost reduction; capture refining margin", "owner": "Strategy Head", "cost_effort": "high", "expected_effect": "RM cost -5-8% long-term", "risk": "₹2000+ cr capex; execution risk" },
+      { "action": "Geographic diversification (Bangladesh, Sri Lanka, Middle East)", "lever": "Market Expansion", "why": "Reduce India concentration; currency diversification", "owner": "International Business Head", "cost_effort": "high", "expected_effect": "Intl revenue 5%→12%", "risk": "Regulatory, brand building" },
+      { "action": "Digital-first dealer platform (ordering, credit, analytics)", "lever": "Operational Efficiency", "why": "Reduce WC cycle; improve fill rates; data-driven pricing", "owner": "Digital Head", "cost_effort": "medium", "expected_effect": "WC days -5; fill rate 95%→98%", "risk": "Adoption by traditional dealers" }
+    ],
+    "kpis_to_track": [
+      { "kpi": "EBITDA Margin", "target": ">22%", "frequency": "Monthly" },
+      { "kpi": "Volume Growth", "target": ">5% YoY", "frequency": "Monthly" },
+      { "kpi": "Premium Mix %", "target": ">40%", "frequency": "Quarterly" },
+      { "kpi": "RM Cost per Litre", "target": "Stable QoQ", "frequency": "Monthly" },
+      { "kpi": "Market Share", "target": ">50%", "frequency": "Quarterly" },
+      { "kpi": "FCF Conversion", "target": ">80%", "frequency": "Quarterly" },
+      { "kpi": "International Revenue %", "target": ">8%", "frequency": "Annual" }
+    ],
+    "trigger_points": [
+      { "condition": "Brent sustains >$115 for 30 days", "then_switch_to": "Defend-only: pause capacity expansion; increase hedging to 80%; cost control mode" },
+      { "condition": "Volume growth <3% for 2 consecutive quarters", "then_switch_to": "Aggressive pricing: sacrifice margin for volume; promotional spends" },
+      { "condition": "Unorganized share drops <25%", "then_switch_to": "Capitalize: accelerate premiumization; acquire weak regional player" },
+      { "condition": "INR appreciates <82/USD", "then_switch_to": "Reduce hedging; pass on forex gain via selective price cuts" }
+    ],
+    "plan_risks": [
+      "Crude spikes to $130+ (geopolitical) — margin collapse risk",
+      "Housing cycle downturn >12 months — volume structural hit",
+      "TiO2 supply disruption (China) — cost spike unhedged",
+      "Consumer downtrading to economy brands — mix deterioration"
+    ],
+    "assumptions": [
+      "OPEC+ cuts hold through Q1 2027",
+      "Monsoon normal in 2027",
+      "No GST rate change on paints",
+      "Competitor pricing discipline holds",
+      "Hedging counterparties honor contracts"
+    ]
+  },
+  "scenarios": [
+    { "name": "best", "narrative": "Brent falls to $85 by Q1 2027; RM costs normalize; volume recovers; margin 24%+", "triggers": ["OPEC+ reversal", "SPR release", "Demand destruction"], "bucket_shifts": [] },
+    { "name": "base", "narrative": "Brent $100-110; RM up 15-20%; price hikes offset 70%; margin 21-22%", "triggers": ["Current trajectory"], "bucket_shifts": [] },
+    { "name": "worst", "narrative": "Brent $130+; RM up 35%; price hikes only 50% pass-through; margin <20%", "triggers": ["Middle East escalation", "Hormuz closure"], "bucket_shifts": [ { "symbol": "ASIANPAINT", "from": "neutral", "to": "negative" } ] }
+  ],
+  "analogues": [
+    { "event": "2008 Crude $147", "date": "Jul 2008", "outcome": "Asian Paints -35% in 3M; RM cost +40%; price hikes lagged; recovered in 12M" },
+    { "event": "2011-14 High Oil ($100-115)", "date": "2011-2014", "outcome": "Margin compressed to 18%; 3 years to recover; market share gained from unorganized" },
+    { "event": "2022 Post-Ukraine Spike", "date": "Mar-Jun 2022", "outcome": "Brent $120→$100; Asian Paints -20%; quick price hikes; margin recovered in 2 quarters" }
+  ],
+  "limitations": [
+    "Hedging details not public (60% estimate from concalls)",
+    "Unorganized sector data anecdotal",
+    "Monsoon impact on rural demand uncertain",
+    "TiO2 China supply dynamics opaque"
+  ],
+  "appendix": {
+    "models_used": ["gemini-1.5-flash", "gemini-1.5-pro"],
+    "prompt_versions": ["company_event_understanding_v2", "dimension_scoring_v3", "resilience_v2", "market_view_v2", "peer_v2", "plan_gen_v3", "scenario_v2"],
+    "call_count": 18,
+    "generation_time_seconds": 412,
+    "depth": "standard",
+    "generated_at": "2026-10-22T09:15:00+05:30"
+  }
+}

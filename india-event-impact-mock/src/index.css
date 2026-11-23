@@ -1,0 +1,431 @@
+@import "tailwindcss";
+
+/* ============================================
+   DESIGN TOKENS — India Event-Impact Mock UI
+   (Light + Dark via CSS variables)
+   ============================================ */
+
+@theme {
+  /* ---------- Neutral tokens ---------- */
+  --color-bg: #ffffff;
+  --color-surface: #f8fafc;
+  --color-surface-2: #f1f5f9;
+  --color-border: #e2e8f0;
+  --color-text: #1e293b;
+  --color-text-muted: #64748b;
+
+  /* ---------- Brand accent ---------- */
+  --color-brand: #0f766e;        /* deep teal */
+  --color-brand-hover: #0d9488;
+  --color-brand-light: #ccfbf1;
+
+  /* ---------- Impact bucket colours (fixed everywhere) ---------- */
+  --color-bucket-danger: #b42318;
+  --color-bucket-danger-bg: #fef2f2;
+  --color-bucket-danger-border: #fecaca;
+
+  --color-bucket-negative: #dc6803;
+  --color-bucket-negative-bg: #fff7ed;
+  --color-bucket-negative-border: #fed7aa;
+
+  --color-bucket-neutral: #667085;
+  --color-bucket-neutral-bg: #f5f5f5;
+  --color-bucket-neutral-border: #d0d5dd;
+
+  --color-bucket-positive: #039855;
+  --color-bucket-positive-bg: #f0fdf4;
+  --color-bucket-positive-border: #bbf7d0;
+
+  --color-bucket-gain: #027a48;
+  --color-bucket-gain-bg: #ecfdf5;
+  --color-bucket-gain-border: #a7f3d0;
+
+  /* ---------- Confidence colours ---------- */
+  --color-conf-high: #039855;
+  --color-conf-med: #dc6803;
+  --color-conf-low: #b42318;
+
+  /* ---------- Demo banner ---------- */
+  --color-demo-banner: #f59e0b;
+  --color-demo-banner-bg: #fffbeb;
+
+  /* ---------- Typography ---------- */
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  /* ---------- Spacing scale (4pt) ---------- */
+  --spacing-1: 0.25rem;   /* 4px */
+  --spacing-2: 0.5rem;    /* 8px */
+  --spacing-3: 0.75rem;   /* 12px */
+  --spacing-4: 1rem;      /* 16px */
+  --spacing-5: 1.25rem;   /* 20px */
+  --spacing-6: 1.5rem;    /* 24px */
+  --spacing-8: 2rem;      /* 32px */
+  --spacing-10: 2.5rem;   /* 40px */
+  --spacing-12: 3rem;     /* 48px */
+  --spacing-16: 4rem;     /* 64px */
+
+  /* ---------- Radius ---------- */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+
+  /* ---------- Shadows ---------- */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* ---------- Breakpoints (match masterplan) ---------- */
+  --breakpoint-xs: 360px;
+  --breakpoint-sm: 768px;
+  --breakpoint-md: 1024px;
+  --breakpoint-lg: 1280px;
+}
+
+/* ---------- Dark mode overrides ---------- */
+:root.dark,
+.dark {
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-surface-2: #334155;
+  --color-border: #475569;
+  --color-text: #f1f5f9;
+  --color-text-muted: #94a3b8;
+
+  --color-brand: #14b8a6;
+  --color-brand-hover: #2dd4bf;
+  --color-brand-light: #0d3b3a;
+
+  --color-bucket-danger-bg: #450a0a;
+  --color-bucket-danger-border: #7f1d1d;
+
+  --color-bucket-negative-bg: #431407;
+  --color-bucket-negative-border: #9a3412;
+
+  --color-bucket-neutral-bg: #1e293b;
+  --color-bucket-neutral-border: #475569;
+
+  --color-bucket-positive-bg: #052e16;
+  --color-bucket-positive-border: #065f46;
+
+  --color-bucket-gain-bg: #064e3b;
+  --color-bucket-gain-border: #065f46;
+
+  --color-demo-banner-bg: #422006;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-surface-2: #334155;
+    --color-border: #475569;
+    --color-text: #f1f5f9;
+    --color-text-muted: #94a3b8;
+
+    --color-brand: #14b8a6;
+    --color-brand-hover: #2dd4bf;
+    --color-brand-light: #0d3b3a;
+
+    --color-bucket-danger-bg: #450a0a;
+    --color-bucket-danger-border: #7f1d1d;
+
+    --color-bucket-negative-bg: #431407;
+    --color-bucket-negative-border: #9a3412;
+
+    --color-bucket-neutral-bg: #1e293b;
+    --color-bucket-neutral-border: #475569;
+
+    --color-bucket-positive-bg: #052e16;
+    --color-bucket-positive-border: #065f46;
+
+    --color-bucket-gain-bg: #064e3b;
+    --color-bucket-gain-border: #065f46;
+
+    --color-demo-banner-bg: #422006;
+  }
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================
+   TYPOGRAPHY UTILITIES
+   ============================================ */
+
+.text-display {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.text-body {
+  font-family: var(--font-sans);
+}
+
+.text-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.text-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ============================================
+   FOCUS VISIBLE (accessibility)
+   ============================================ */
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   SCROLLBAR (subtle)
+   ============================================ */
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* ============================================
+   REDUCED MOTION
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ============================================
+   PRINT STYLES (comprehensive for reports)
+   ============================================ */
+
+@media print {
+  /* Hide all UI chrome */
+  .no-print,
+  header,
+  footer,
+  nav,
+  .macro-ticker,
+  .demo-banner,
+  .mobile-tab-bar,
+  button,
+  .toast-container,
+  .fixed,
+  .sticky {
+    display: none !important;
+  }
+
+  /* Page setup */
+  @page {
+    size: A4;
+    margin: 20mm 15mm;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+    line-height: 1.5;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  #root,
+  main {
+    min-height: auto !important;
+    display: block !important;
+  }
+
+  /* Watermark on every page */
+  .print-watermark {
+    position: fixed;
+    bottom: 10mm;
+    right: 10mm;
+    font-size: 8pt;
+    color: #999;
+    opacity: 0.4;
+    z-index: 9999;
+  }
+
+  /* Typography */
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+    color: #111 !important;
+  }
+
+  h1 { font-size: 20pt; margin: 0 0 8pt; }
+  h2 { font-size: 16pt; margin: 16pt 0 8pt; border-bottom: 1px solid #ccc; padding-bottom: 4pt; }
+  h3 { font-size: 13pt; margin: 12pt 0 6pt; }
+  h4 { font-size: 11pt; margin: 10pt 0 4pt; }
+
+  p { margin: 4pt 0; orphans: 3; widows: 3; }
+
+  /* Links - show URLs */
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666;
+  }
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  /* Tables */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    page-break-inside: auto;
+    font-size: 9pt;
+  }
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+  thead {
+    display: table-header-group;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 4pt 6pt;
+    vertical-align: top;
+  }
+  th {
+    background: #f5f5f5 !important;
+    font-weight: 600;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Avoid breaking inside cards/sections */
+  .card, .section, .report-section, .bucket-section, .company-row,
+  .action-card, .kpi-row, .peer-row, .scenario-card {
+    page-break-inside: avoid;
+  }
+
+  /* Force breaks before major sections */
+  .page-break-before {
+    page-break-before: always;
+  }
+
+  /* Bucket colours - use exact printing */
+  .bg-bucket-danger-bg, .bg-bucket-negative-bg, .bg-bucket-neutral-bg,
+  .bg-bucket-positive-bg, .bg-bucket-gain-bg {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Confidence rings/badges */
+  .confidence-ring,
+  .confidence-badge {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Charts - ensure they render */
+  .recharts-wrapper,
+  .recharts-surface {
+    overflow: visible !important;
+  }
+
+  /* Hide scrollbars */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Two-column layouts become single column */
+  .grid, .flex {
+    display: block !important;
+  }
+  .grid > *, .flex > * {
+    width: 100% !important;
+    margin-bottom: 12pt;
+  }
+
+  /* Specific report elements */
+  .report-header {
+    page-break-after: avoid;
+    margin-bottom: 16pt;
+  }
+
+  .report-toc {
+    page-break-after: always;
+  }
+
+  .executive-summary {
+    page-break-after: avoid;
+  }
+
+  .sector-heatmap {
+    page-break-inside: avoid;
+  }
+
+  .company-table {
+    page-break-inside: auto;
+  }
+
+  .company-drawer {
+    display: none !important; /* Drawers not printed */
+  }
+
+  /* Footer note on last page */
+  .print-footer-note {
+    position: fixed;
+    bottom: 10mm;
+    left: 15mm;
+    right: 15mm;
+    font-size: 7pt;
+    color: #999;
+    text-align: center;
+    border-top: 1px solid #eee;
+    padding-top: 4pt;
+  }
+}

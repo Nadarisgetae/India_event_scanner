@@ -1,0 +1,350 @@
+{
+  "template_rules": [
+    {
+      "exposure_tag": "high_input_cost_sensitivity",
+      "channels_affected": ["Input Costs", "Currency / INR"],
+      "default_impact": -2,
+      "reasoning_template": "High sensitivity to input cost inflation; {company} has limited hedging and pricing power to pass through costs."
+    },
+    {
+      "exposure_tag": "strong_pricing_power",
+      "channels_affected": ["Pricing Power", "Consumer Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} has strong brand loyalty and market position allowing regular price hikes above inflation."
+    },
+    {
+      "exposure_tag": "export_oriented",
+      "channels_affected": ["Currency / INR", "Export Competitiveness", "Global Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} derives significant revenue from exports; weaker INR provides natural margin tailwind."
+    },
+    {
+      "exposure_tag": "rupee_beneficiary",
+      "channels_affected": ["Currency / INR"],
+      "default_impact": 2,
+      "reasoning_template": "{company} has USD revenue and INR cost base; rupee depreciation directly improves margins."
+    },
+    {
+      "exposure_tag": "rate_sensitive",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} benefits directly from lower interest rates through credit demand and EMI affordability."
+    },
+    {
+      "exposure_tag": "domestic_focused",
+      "channels_affected": ["Consumer Demand", "Currency / INR"],
+      "default_impact": -1,
+      "reasoning_template": "{company} is heavily domestic-focused; benefits from local demand but exposed to INR depreciation on imports."
+    },
+    {
+      "exposure_tag": "commodity_linkage",
+      "channels_affected": ["Commodity Prices", "Currency / INR", "Input Costs"],
+      "default_impact": -2,
+      "reasoning_template": "{company} has direct commodity price exposure; crude/metal prices drive input costs and revenue."
+    },
+    {
+      "exposure_tag": "high_atf_sensitivity",
+      "channels_affected": ["Input Costs", "Currency / INR"],
+      "default_impact": -4,
+      "reasoning_template": "{company} has very high ATF (jet fuel) cost exposure with no hedging; crude spikes severely impact margins."
+    },
+    {
+      "exposure_tag": "fleet_expansion",
+      "channels_affected": ["Rates / Monetary Policy", "Currency / INR"],
+      "default_impact": -1,
+      "reasoning_template": "{company} is in fleet expansion phase; higher rates and weaker INR increase lease/capex burden."
+    },
+    {
+      "exposure_tag": "credit_growth",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} benefits from credit growth acceleration when rates fall; loan book expands."
+    },
+    {
+      "exposure_tag": "deposit_franchise",
+      "channels_affected": ["Rates / Monetary Policy"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has low-cost deposit franchise; benefits from rate cuts via stable funding costs."
+    },
+    {
+      "exposure_tag": "nim_management",
+      "channels_affected": ["Rates / Monetary Policy"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has proven NIM management across rate cycles; deposit repricing lag creates temporary tailwind."
+    },
+    {
+      "exposure_tag": "integrated_oil_to_chemicals",
+      "channels_affected": ["Commodity Prices", "Currency / INR", "Input Costs"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has integrated O2C model; high crude benefits upstream and cracking margins."
+    },
+    {
+      "exposure_tag": "retail_telecom_diversification",
+      "channels_affected": ["Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has diversified earnings from retail and telecom providing stability."
+    },
+    {
+      "exposure_tag": "market_leader",
+      "channels_affected": ["Pricing Power", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is market leader with pricing power and scale advantages."
+    },
+    {
+      "exposure_tag": "input_cost_sensitivity",
+      "channels_affected": ["Input Costs", "Currency / INR"],
+      "default_impact": -2,
+      "reasoning_template": "{company} has significant input cost sensitivity; commodity inflation pressures margins."
+    },
+    {
+      "exposure_tag": "ev_transition",
+      "channels_affected": ["Regulatory", "Consumer Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is transitioning to EVs; near-term capex heavy but long-term structural shift."
+    },
+    {
+      "exposure_tag": "us_generics_leader",
+      "channels_affected": ["Currency / INR", "Global Demand", "Regulatory"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is a leader in US generics; rupee beneficiary but faces regulatory and pricing pressure."
+    },
+    {
+      "exposure_tag": "specialty_pipeline",
+      "channels_affected": ["Global Demand", "Regulatory"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has specialty pipeline providing growth optionality beyond generics."
+    },
+    {
+      "exposure_tag": "jlr_exposure",
+      "channels_affected": ["Currency / INR", "Global Demand", "Consumer Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} has JLR exposure providing USD revenue but UK/China demand cyclicality."
+    },
+    {
+      "exposure_tag": "ev_leader_domestic",
+      "channels_affected": ["Regulatory", "Consumer Demand", "Rates / Monetary Policy"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is domestic EV leader; policy tailwinds but execution and profitability uncertain."
+    },
+    {
+      "exposure_tag": "insurance_lending_mix",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has diversified insurance and lending mix; rate cuts benefit both."
+    },
+    {
+      "exposure_tag": "strong_brand",
+      "channels_affected": ["Pricing Power", "Reputation"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has strong brand equity allowing premium pricing and customer loyalty."
+    },
+    {
+      "exposure_tag": "low_npa",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has low NPA providing balance sheet resilience across cycles."
+    },
+    {
+      "exposure_tag": "fmcg_leader",
+      "channels_affected": ["Consumer Demand", "Pricing Power"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is FMCG leader with distribution moat and pricing power."
+    },
+    {
+      "exposure_tag": "pricing_power",
+      "channels_affected": ["Pricing Power", "Consumer Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} has demonstrated ability to pass on cost increases via price hikes."
+    },
+    {
+      "exposure_tag": "rural_exposure",
+      "channels_affected": ["Consumer Demand", "Currency / INR"],
+      "default_impact": 0,
+      "reasoning_template": "{company} has significant rural exposure; monsoon and farm income drive demand."
+    },
+    {
+      "exposure_tag": "input_cost_pass_through",
+      "channels_affected": ["Input Costs", "Pricing Power"],
+      "default_impact": 0,
+      "reasoning_template": "{company} can pass through input cost increases with minimal lag."
+    },
+    {
+      "exposure_tag": "retail_credit_focus",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} is focused on retail credit which is rate-sensitive and high-yielding."
+    },
+    {
+      "exposure_tag": "digital_leader",
+      "channels_affected": ["Consumer Demand", "Regulatory"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is a digital leader in its sector; technology adoption drives efficiency and growth."
+    },
+    {
+      "exposure_tag": "asset_quality",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has best-in-class asset quality providing resilience across cycles."
+    },
+    {
+      "exposure_tag": "nim_stability",
+      "channels_affected": ["Rates / Monetary Policy"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has stable NIM across rate cycles due to deposit franchise and loan mix."
+    },
+    {
+      "exposure_tag": "psu_bank",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand", "Regulatory"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is a PSU bank with government ownership; policy-driven lending but valuation discount."
+    },
+    {
+      "exposure_tag": "large_branch_network",
+      "channels_affected": ["Consumer Demand", "Regulatory"],
+      "default_impact": 0,
+      "reasoning_template": "{company} has extensive branch network providing distribution advantage."
+    },
+    {
+      "exposure_tag": "government_ownership",
+      "channels_affected": ["Regulatory", "Consumer Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} has government ownership providing stability but also policy constraints."
+    },
+    {
+      "exposure_tag": "market_share_leader",
+      "channels_affected": ["Pricing Power", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is market share leader with scale and pricing advantages."
+    },
+    {
+      "exposure_tag": "tariff_hikes",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} benefits from sector tariff hikes improving revenue realization."
+    },
+    {
+      "exposure_tag": "5g_rollout",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand", "Regulatory"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is rolling out 5G; capex heavy but revenue upside uncertain."
+    },
+    {
+      "exposure_tag": "africa_exposure",
+      "channels_affected": ["Currency / INR", "Global Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} has Africa operations providing geographic diversification but currency risk."
+    },
+    {
+      "exposure_tag": "reliance_ecosystem",
+      "channels_affected": ["Consumer Demand", "Regulatory"],
+      "default_impact": 1,
+      "reasoning_template": "{company} benefits from Reliance ecosystem synergies and distribution."
+    },
+    {
+      "exposure_tag": "digital_lending",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand", "Regulatory"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is in digital lending; rate cuts reduce cost of funds but regulatory risk exists."
+    },
+    {
+      "exposure_tag": "insurance_broking",
+      "channels_affected": ["Consumer Demand", "Regulatory"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is in insurance broking; structural growth but competitive intensity high."
+    },
+    {
+      "exposure_tag": "early_stage",
+      "channels_affected": ["Consumer Demand", "Regulatory"],
+      "default_impact": -1,
+      "reasoning_template": "{company} is in early stage of business; high growth but high uncertainty."
+    },
+    {
+      "exposure_tag": "infrastructure_capex",
+      "channels_affected": ["Consumer Demand", "Rates / Monetary Policy", "Regulatory"],
+      "default_impact": 2,
+      "reasoning_template": "{company} benefits from infrastructure capex cycle; order book visibility high."
+    },
+    {
+      "exposure_tag": "order_book_strong",
+      "channels_affected": ["Consumer Demand"],
+      "default_impact": 2,
+      "reasoning_template": "{company} has strong order book providing revenue visibility."
+    },
+    {
+      "exposure_tag": "middle_east_exposure",
+      "channels_affected": ["Currency / INR", "Global Demand", "Regulatory"],
+      "default_impact": 0,
+      "reasoning_template": "{company} has Middle East exposure providing diversification but geopolitical risk."
+    },
+    {
+      "exposure_tag": "defence_foray",
+      "channels_affected": ["Regulatory", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is entering defence sector; policy tailwind but execution risk."
+    },
+    {
+      "exposure_tag": "capacity_leader",
+      "channels_affected": ["Consumer Demand", "Pricing Power"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is capacity leader with economies of scale."
+    },
+    {
+      "exposure_tag": "energy_cost_sensitive",
+      "channels_affected": ["Input Costs", "Currency / INR"],
+      "default_impact": -2,
+      "reasoning_template": "{company} has high energy cost sensitivity; pet coke/coal/power costs significant."
+    },
+    {
+      "exposure_tag": "demand_cycle",
+      "channels_affected": ["Consumer Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is cyclical; demand follows real estate/infrastructure cycles."
+    },
+    {
+      "exposure_tag": "cost_leader",
+      "channels_affected": ["Input Costs", "Pricing Power"],
+      "default_impact": 1,
+      "reasoning_template": "{company} is cost leader in its industry; maintains margins through efficiency."
+    },
+    {
+      "exposure_tag": "strong_balance_sheet",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has strong balance sheet with low leverage providing financial flexibility."
+    },
+    {
+      "exposure_tag": "capacity_expansion",
+      "channels_affected": ["Rates / Monetary Policy", "Consumer Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is in capacity expansion phase; near-term capex heavy, long-term growth."
+    },
+    {
+      "exposure_tag": "energy_efficiency",
+      "channels_affected": ["Input Costs", "Regulatory"],
+      "default_impact": 1,
+      "reasoning_template": "{company} has best-in-class energy efficiency reducing input cost sensitivity."
+    },
+    {
+      "exposure_tag": "viscose_staple_fibre",
+      "channels_affected": ["Input Costs", "Currency / INR", "Commodity Prices"],
+      "default_impact": -1,
+      "reasoning_template": "{company} has VSF exposure to pulp/polyester prices and currency."
+    },
+    {
+      "exposure_tag": "paints_foray",
+      "channels_affected": ["Consumer Demand", "Input Costs", "Regulatory"],
+      "default_impact": 0,
+      "reasoning_template": "{company} is entering paints; new segment with high competition and RM sensitivity."
+    },
+    {
+      "exposure_tag": "commodity_cycle",
+      "channels_affected": ["Commodity Prices", "Global Demand"],
+      "default_impact": 0,
+      "reasoning_template": "{company} earnings follow commodity cycles; timing uncertain."
+    }
+  ],
+  "fallback": {
+    "default_impact": 0,
+    "reasoning": "No specific exposure tags matched; neutral assumption for {company}."
+  }
+}

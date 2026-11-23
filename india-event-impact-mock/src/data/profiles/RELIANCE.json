@@ -1,0 +1,20 @@
+{
+  "symbol": "RELIANCE",
+  "name": "Reliance Industries",
+  "sector": "Oil & Gas",
+  "verification": "human-verified",
+  "confidence": "High",
+  "last_verified": "2026-09-20",
+  "business_summary": "India's largest enterprise spanning integrated oil-to-chemicals (Jamnagar refinery), retail (18,000+ stores), telecom (Jio 480M+ subscribers), and emerging green energy.",
+  "revenue_mix": { "O2C Refining & Petrochem": 58, "Retail": 24, "Digital Services (Jio)": 15, "Oil & Gas Exploration": 3 },
+  "exposure_tags": ["integrated_oil_to_chemicals", "retail_telecom_diversification", "crude_linkage", "export_oriented"],
+  "resilience": {
+    "score": 84,
+    "band": "high",
+    "strengths": ["World's largest complex refining facility", "Dominant consumer franchise (Jio + Retail)", "Diversified cash flows", "Massive investment balance sheet"],
+    "weaknesses": ["Capex-heavy new energy pipeline", "Crude spread and petrochemical margin volatility", "Net debt sensitivity during cycles"],
+    "ratios": { "Debt/Equity": 0.38, "Current Ratio": 1.2, "Interest Coverage": 8.5, "FCF Yield": "3.8%", "ROE": "11.2%", "ROCE": "10.4%" }
+  },
+  "ratios": { "Debt/Equity": 0.38, "Current Ratio": 1.2, "Interest Coverage": 8.5, "FCF Yield": "3.8%", "ROE": "11.2%", "ROCE": "10.4%" },
+  "sources": ["Annual Report FY24", "Investor Presentation Q1FY25", "BSE Disclosures", "Morgan Stanley Research"]
+}

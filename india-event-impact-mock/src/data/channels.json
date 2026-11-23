@@ -1,0 +1,14 @@
+[
+  { "id": "currency_inr", "name": "Currency / INR", "description": "Exchange rate impact on imports, exports, and foreign currency debt" },
+  { "id": "input_costs", "name": "Input Costs", "description": "Raw material, energy, and commodity cost pass-through" },
+  { "id": "consumer_demand", "name": "Consumer Demand", "description": "Domestic consumption impact from inflation, income, sentiment" },
+  { "id": "export_competitiveness", "name": "Export Competitiveness", "description": "Currency-driven export advantage/disadvantage" },
+  { "id": "fiscal_subsidy", "name": "Fiscal / Subsidy Burden", "description": "Government subsidy bill and fiscal deficit impact" },
+  { "id": "rates_monetary", "name": "Rates / Monetary Policy", "description": "Interest rate changes affecting NIM, credit demand, valuations" },
+  { "id": "trade_policy", "name": "Trade Policy / Tariffs", "description": "Tariffs, quotas, trade agreements affecting sectors" },
+  { "id": "regulatory", "name": "Regulatory", "description": "Sector-specific regulatory changes" },
+  { "id": "commodity_prices", "name": "Commodity Prices", "description": "Direct commodity price exposure (crude, metals, agri)" },
+  { "id": "global_demand", "name": "Global Demand", "description": "Export demand from key trading partners" },
+  { "id": "supply_chain", "name": "Supply Chain", "description": "Logistics, shipping, component availability disruptions" },
+  { "id": "substitution", "name": "Substitution / Alternatives", "description": "Shift to alternatives (EVs, renewables, local sourcing)" }
+]
